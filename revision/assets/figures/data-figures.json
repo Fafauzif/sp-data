@@ -1,0 +1,36 @@
+{
+  "data_status": {
+    "issue": "desain",
+    "journey": "screenshot prototipe aktual",
+    "chair": "uji kursi a0630d0e",
+    "pipeline": "alur teknis dan tampilan berbasis mutu",
+    "swimlane": "desain operasi",
+    "gantt": "indikatif",
+    "market": "basis Susenas 2024 dan target tahun 3",
+    "fragment": "catatan dua pemrosesan satu barang",
+    "quality": "desain kendali mutu"
+  },
+  "tam": {
+    "population_2024": 281603800,
+    "monthly_furniture_idr": 2577,
+    "months": 12,
+    "annualized_idr": 8708315911200
+  },
+  "chair_fixture": {
+    "source_frames": 101,
+    "model_total_ms": 105463,
+    "refined_bytes": 1950948,
+    "raw_triangles": 19246,
+    "refined_triangles": 19246,
+    "removed_triangles_earlier": 354,
+    "removed_triangles_public_job": 0
+  },
+  "path_provenance": {
+    "source_photo": "docs/handoff/assets/refine-source-vs-model.jpg, source area first panel",
+    "raw_and_refined": "docs/handoff/assets/refine-live-poses.jpg, first column across both rows, each in matched angle",
+    "seller": "mobile /jual/sora/rekam, capture guide panel",
+    "sora_product": "mobile /barang/sora?tab=condition",
+    "sora_room": "mobile /barang/sora?tab=room",
+    "chair_fallback": "mobile /pindai/demo-chair, local verified release"
+  }
+}

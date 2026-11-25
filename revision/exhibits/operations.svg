@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="62.6341mm" viewBox="0 0 820 321">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L6 3 L0 6 Z" fill="#527d6c"/></marker></defs>
+<rect x="0" y="0" width="820" height="321" rx="0" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="363" y="20" fill="#14624c" font-family="DejaVu Sans" font-size="16" font-weight="700" text-anchor="start">PILIH CARA SERAH TERIMA</text>
+<polyline points="159,91 179,91" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="337,91 356,91" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="590,91 605,91 605,64 619,64" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="605,91 605,125 619,125" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="720,155 720,180 473,180 473,196" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="804,64 814,64 814,180 720,180" fill="none" stroke="#527d6c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1" y="38" width="155" height="112" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="14" y="64" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Penjual</text>
+<text x="14" y="89" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Siapkan foto,</text>
+<text x="14" y="112" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">ukuran, harga,</text>
+<text x="14" y="135" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">dan jadwal.</text>
+<rect x="181" y="38" width="153" height="112" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="194" y="64" fill="#103e32" font-family="DejaVu Sans" font-size="15.2" font-weight="700" text-anchor="start">Operasi katalog</text>
+<text x="194" y="89" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Cek bukti.</text>
+<text x="194" y="112" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Terbitkan</text>
+<text x="194" y="135" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">listing.</text>
+<rect x="359" y="38" width="230" height="112" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="372" y="64" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Pembeli dan penjual</text>
+<text x="372" y="89" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Pilih barang.</text>
+<text x="372" y="112" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Penjual cek stok</text>
+<text x="372" y="135" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">dan ketersediaan jadwal.</text>
+<rect x="622" y="34" width="180" height="59" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="635" y="60" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Ambil sendiri</text>
+<text x="635" y="85" fill="#425950" font-family="DejaVu Sans" font-size="16" font-weight="400" text-anchor="start">Sepakati jadwal.</text>
+<rect x="622" y="96" width="180" height="59" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="635" y="122" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Pengiriman</text>
+<text x="635" y="147" fill="#425950" font-family="DejaVu Sans" font-size="15" font-weight="400" text-anchor="start">Mitra cek rute &amp; slot.</text>
+<rect x="1" y="199" width="328" height="81" rx="8" fill="#f5eee0" stroke="#dbc8a8" stroke-width="1.2"/>
+<text x="14" y="225" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Jika ada selisih kondisi</text>
+<text x="14" y="250" fill="#425950" font-family="DejaVu Sans" font-size="16" font-weight="400" text-anchor="start">Dukungan cek bukti dan catat koreksi.</text>
+<rect x="358" y="199" width="230" height="81" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="371" y="225" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Pembayaran</text>
+<text x="371" y="250" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Pembeli konfirmasi total.</text>
+<rect x="621" y="199" width="197" height="81" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="634" y="225" fill="#103e32" font-family="DejaVu Sans" font-size="18" font-weight="700" text-anchor="start">Serah terima</text>
+<text x="634" y="250" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Catat penerimaan.</text>
+<polyline points="590,239 618,239" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="720,283 720,299 164,299 164,283" fill="none" stroke="#527d6c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="404" y="289" width="164" height="24" rx="0" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="486" y="305" fill="#425950" font-family="DejaVu Sans" font-size="14" font-weight="400" text-anchor="middle">Jika ada pengaduan</text>
+</svg>

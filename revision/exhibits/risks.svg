@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="52.2927mm" viewBox="0 0 820 268">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L6 3 L0 6 Z" fill="#527d6c"/></marker></defs>
+<rect x="0" y="0" width="820" height="268" rx="0" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="1" y="20" fill="#14624c" font-family="DejaVu Sans" font-size="16" font-weight="700" text-anchor="start">DAMPAK</text>
+<text x="4" y="72" fill="#142b24" font-family="DejaVu Sans" font-size="17" font-weight="600" text-anchor="start">Tinggi</text>
+<rect x="124" y="37" width="91" height="54" rx="4" fill="#f5e6c9" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="147.5" y="49" width="44" height="31" rx="10" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="169.5" y="71" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="middle">R5</text>
+<rect x="219" y="37" width="91" height="54" rx="4" fill="#ecd0bb" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="242.5" y="49" width="44" height="31" rx="10" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="264.5" y="71" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="middle">R3</text>
+<rect x="314" y="37" width="91" height="54" rx="4" fill="#e9b9aa" stroke="#ffffff" stroke-width="1.2"/>
+<text x="4" y="130" fill="#142b24" font-family="DejaVu Sans" font-size="17" font-weight="600" text-anchor="start">Sedang</text>
+<rect x="124" y="95" width="91" height="54" rx="4" fill="#e9f0e7" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="219" y="95" width="91" height="54" rx="4" fill="#f5e6c9" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="242.5" y="107" width="44" height="31" rx="10" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="264.5" y="129" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="middle">R4</text>
+<rect x="314" y="95" width="91" height="54" rx="4" fill="#ecd0bb" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="337.5" y="107" width="44" height="31" rx="10" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="359.5" y="129" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="middle">R1</text>
+<text x="4" y="188" fill="#142b24" font-family="DejaVu Sans" font-size="17" font-weight="600" text-anchor="start">Rendah</text>
+<rect x="124" y="153" width="91" height="54" rx="4" fill="#e2efe7" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="219" y="153" width="91" height="54" rx="4" fill="#e9f0e7" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="314" y="153" width="91" height="54" rx="4" fill="#f5e6c9" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="337.5" y="165" width="44" height="31" rx="10" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="359.5" y="187" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="middle">R2</text>
+<text x="169.5" y="234" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="middle">Rendah</text>
+<text x="264.5" y="234" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="middle">Sedang</text>
+<text x="359.5" y="234" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="middle">Tinggi</text>
+<text x="263" y="260" fill="#14624c" font-family="DejaVu Sans" font-size="16" font-weight="700" text-anchor="middle">KEMUNGKINAN</text>
+<polyline points="427,36 427,210" fill="none" stroke="#bfd3c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="449" y="48" fill="#14624c" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="start">R1</text>
+<text x="492" y="48" fill="#142b24" font-family="DejaVu Sans" font-size="18" font-weight="600" text-anchor="start">Bukti tidak lengkap</text>
+<text x="449" y="88" fill="#14624c" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="start">R2</text>
+<text x="492" y="88" fill="#142b24" font-family="DejaVu Sans" font-size="18" font-weight="600" text-anchor="start">Model sulit dipakai</text>
+<text x="449" y="128" fill="#14624c" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="start">R3</text>
+<text x="492" y="128" fill="#142b24" font-family="DejaVu Sans" font-size="18" font-weight="600" text-anchor="start">Stok atau angkut bermasalah</text>
+<text x="449" y="168" fill="#14624c" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="start">R4</text>
+<text x="492" y="168" fill="#142b24" font-family="DejaVu Sans" font-size="18" font-weight="600" text-anchor="start">Biaya menghambat checkout</text>
+<text x="449" y="208" fill="#14624c" font-family="DejaVu Sans" font-size="17" font-weight="700" text-anchor="start">R5</text>
+<text x="492" y="208" fill="#142b24" font-family="DejaVu Sans" font-size="18" font-weight="600" text-anchor="start">Kondisi barang berbeda</text>
+<text x="449" y="260" fill="#425950" font-family="DejaVu Sans" font-size="16" font-weight="400" text-anchor="start">Penilaian awal secara kualitatif</text>
+</svg>

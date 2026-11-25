@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="58.5366mm" viewBox="0 0 820 300">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L6 3 L0 6 Z" fill="#527d6c"/></marker></defs>
+<rect x="0" y="0" width="820" height="300" rx="0" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="278" y="2" width="174" height="76" rx="7" fill="#103e32" stroke="none" stroke-width="1.2"/>
+<text x="365" y="24" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="700" text-anchor="middle">MULAI DI SEKITAR UI</text>
+<text x="365" y="46" fill="#ffffff" font-family="DejaVu Sans" font-size="15.5" font-weight="700" text-anchor="middle">Bulan 0–6</text>
+<text x="365" y="65" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="400" text-anchor="middle">Pendiri / non-dilutif</text>
+<rect x="458" y="2" width="174" height="76" rx="7" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<text x="545" y="24" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="700" text-anchor="middle">PERLUAS KLASTER</text>
+<text x="545" y="46" fill="#ffffff" font-family="DejaVu Sans" font-size="15.5" font-weight="700" text-anchor="middle">Bulan 6–12</text>
+<text x="545" y="65" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="400" text-anchor="middle">Pre-seed</text>
+<rect x="638" y="2" width="174" height="76" rx="7" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<text x="725" y="24" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="700" text-anchor="middle">PERLUAS WILAYAH</text>
+<text x="725" y="46" fill="#ffffff" font-family="DejaVu Sans" font-size="15.5" font-weight="700" text-anchor="middle">Mulai tahun 2</text>
+<text x="725" y="65" fill="#ffffff" font-family="DejaVu Sans" font-size="14" font-weight="400" text-anchor="middle">Seed</text>
+<rect x="1" y="84" width="815" height="34" rx="4" fill="#f1f7f3" stroke="none" stroke-width="1.2"/>
+<text x="8" y="106" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="start">Kurasi stok dan alur pesanan</text>
+<rect x="289" y="94" width="152" height="14" rx="6" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<rect x="469" y="94" width="152" height="14" rx="6" fill="#bfd3c8" stroke="none" stroke-width="1.2"/>
+<rect x="649" y="94" width="152" height="14" rx="6" fill="#bfd3c8" stroke="none" stroke-width="1.2"/>
+<rect x="1" y="120" width="815" height="34" rx="4" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="8" y="142" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="start">Kampanye “Muat Nggak?”</text>
+<rect x="469" y="130" width="152" height="14" rx="6" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<rect x="649" y="130" width="152" height="14" rx="6" fill="#bfd3c8" stroke="none" stroke-width="1.2"/>
+<rect x="1" y="156" width="815" height="34" rx="4" fill="#f1f7f3" stroke="none" stroke-width="1.2"/>
+<text x="8" y="178" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="start">Otomasi media dan katalog B2B</text>
+<rect x="469" y="166" width="152" height="14" rx="6" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<rect x="649" y="166" width="152" height="14" rx="6" fill="#bfd3c8" stroke="none" stroke-width="1.2"/>
+<rect x="1" y="192" width="815" height="34" rx="4" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="8" y="214" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="start">Bursa Pindahan LihatDulu</text>
+<rect x="649" y="202" width="152" height="14" rx="6" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<rect x="1" y="228" width="815" height="34" rx="4" fill="#f1f7f3" stroke="none" stroke-width="1.2"/>
+<text x="8" y="250" fill="#142b24" font-family="DejaVu Sans" font-size="16" font-weight="600" text-anchor="start">Pengembangan API</text>
+<rect x="649" y="238" width="152" height="14" rx="6" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<rect x="281" y="278" width="40" height="12" rx="5" fill="#14624c" stroke="none" stroke-width="1.2"/>
+<text x="330" y="289" fill="#425950" font-family="DejaVu Sans" font-size="16" font-weight="400" text-anchor="start">Mulai</text>
+<rect x="417" y="278" width="40" height="12" rx="5" fill="#bfd3c8" stroke="none" stroke-width="1.2"/>
+<text x="466" y="289" fill="#425950" font-family="DejaVu Sans" font-size="16" font-weight="400" text-anchor="start">Berlanjut</text>
+</svg>

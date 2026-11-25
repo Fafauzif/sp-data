@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="46.2439mm" viewBox="0 0 820 237">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L6 3 L0 6 Z" fill="#527d6c"/></marker></defs>
+<rect x="0" y="0" width="820" height="237" rx="0" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="1" y="57" width="250" height="127" rx="8" fill="#103e32" stroke="#103e32" stroke-width="1.2"/>
+<text x="14" y="83" fill="#ffffff" font-family="DejaVu Sans" font-size="20" font-weight="700" text-anchor="start">Pembeli membayar</text>
+<text x="14" y="108" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Harga barang</text>
+<text x="14" y="131" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">+ Biaya layanan</text>
+<text x="14" y="154" fill="#ffffff" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">+ Ongkos kirim jika dipilih</text>
+<polyline points="253,120 276,120 276,38 308,38" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="276,120 308,120" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="276,120 276,202 308,202" fill="none" stroke="#527d6c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="311" y="3" width="507" height="67" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="324" y="29" fill="#103e32" font-family="DejaVu Sans" font-size="19" font-weight="700" text-anchor="start">Penjual</text>
+<text x="324" y="54" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Harga barang − komisi penjual</text>
+<rect x="311" y="85" width="507" height="67" rx="8" fill="#e7f2ec" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="324" y="111" fill="#103e32" font-family="DejaVu Sans" font-size="19" font-weight="700" text-anchor="start">Pendapatan LihatDulu</text>
+<text x="324" y="136" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Biaya layanan pembeli + komisi penjual</text>
+<rect x="311" y="167" width="507" height="67" rx="8" fill="#f1f7f3" stroke="#bfd3c8" stroke-width="1.2"/>
+<text x="324" y="193" fill="#103e32" font-family="DejaVu Sans" font-size="19" font-weight="700" text-anchor="start">Penyedia angkutan jika dipilih</text>
+<text x="324" y="218" fill="#425950" font-family="DejaVu Sans" font-size="17" font-weight="400" text-anchor="start">Ongkos kirim sesuai rute</text>
+</svg>

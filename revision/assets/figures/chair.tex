@@ -1,0 +1,25 @@
+\documentclass[border=2pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\usepackage{tikz,graphicx,pgfplots}
+\usetikzlibrary{arrows.meta,positioning,matrix,calc}
+\pgfplotsset{compat=1.18}
+\definecolor{forest}{HTML}{176044}
+\definecolor{sage}{HTML}{EAF4EE}
+\definecolor{rulec}{HTML}{CBD4CF}
+\definecolor{ink}{HTML}{192723}
+\definecolor{warm}{HTML}{F3ECE4}
+\tikzset{all/.style={font=\fontsize{10.5pt}{12.5pt}\selectfont,text=ink},
+box/.style={all,draw=rulec,fill=sage,rounded corners=2pt,align=center,inner sep=4pt,minimum height=0.9cm},
+mutedbox/.style={box,fill=white},warmbox/.style={box,fill=warm},
+flow/.style={-{Latex[length=2.4mm]},line width=.65pt,draw=forest}}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]\node[inner sep=1pt,draw=rulec,rounded corners=2pt,minimum width=3.76cm,minimum height=4.1cm] at (1.880,0) {\includegraphics[width=3.69cm,height=4.02cm,keepaspectratio]{../images/chair-source.jpg}};
+\node[all,font=\fontsize{10.1pt}{12pt}\selectfont\bfseries] at (1.880,-2.350) {Bingkai sumber};
+\node[inner sep=1pt,draw=rulec,rounded corners=2pt,minimum width=3.76cm,minimum height=4.1cm] at (5.800,0) {\includegraphics[width=3.69cm,height=4.02cm,keepaspectratio]{../images/chair-raw.jpg}};
+\node[all,font=\fontsize{10.1pt}{12pt}\selectfont\bfseries] at (5.800,-2.350) {GLB mentah};
+\node[inner sep=1pt,draw=rulec,rounded corners=2pt,minimum width=3.76cm,minimum height=4.1cm] at (9.720,0) {\includegraphics[width=3.69cm,height=4.02cm,keepaspectratio]{../images/chair-refined.jpg}};
+\node[all,font=\fontsize{10.1pt}{12pt}\selectfont\bfseries] at (9.720,-2.350) {GLB olahan};
+\node[inner sep=1pt,draw=rulec,rounded corners=2pt,minimum width=3.76cm,minimum height=4.1cm] at (13.640,0) {\includegraphics[width=3.69cm,height=4.02cm,keepaspectratio]{../images/chair-fallback.jpg}};
+\node[all,font=\fontsize{10.1pt}{12pt}\selectfont\bfseries] at (13.640,-2.350) {Foto asli didahulukan};\end{tikzpicture}
+\end{document}
