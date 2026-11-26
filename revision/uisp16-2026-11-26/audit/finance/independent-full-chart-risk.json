@@ -1,0 +1,22 @@
+{
+  "file": "/tmp/ldfin/model-full-verified-charts.xlsx",
+  "full_draw_schema": true,
+  "matched_trial_rows": 10000,
+  "matched_values": 310000,
+  "record_count_expected": 10000,
+  "errors": [],
+  "native_chart_caches": [
+    {
+      "path": "xl/drawings/charts/chart1.xml",
+      "orientation": "col",
+      "points": 15,
+      "count": 10000
+    },
+    {
+      "path": "xl/drawings/charts/chart2.xml",
+      "orientation": "col",
+      "points": 15,
+      "count": 10000
+    }
+  ]
+}

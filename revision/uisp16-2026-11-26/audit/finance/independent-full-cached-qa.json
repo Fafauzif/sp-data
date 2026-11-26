@@ -1,0 +1,53 @@
+{
+  "file": "/tmp/ldfin/model-full-fixed.xlsx",
+  "case": "Base",
+  "funding_mode": "Standar",
+  "sheet_count": 14,
+  "native_charts": 2,
+  "formula_error_count": 0,
+  "formulas": 12808,
+  "expectations": 29,
+  "values": {
+    "Ringkasan": {
+      "C11": 0.13968190238168043,
+      "C12": -2512.212365880056,
+      "C13": "Tidak terdefinisi",
+      "C17": -2743.5567981554814,
+      "C18": 2818.5567981554814
+    },
+    "Ukuran Pasar": {
+      "B13": 32032.534505625088,
+      "B15": 3363.4161230906343,
+      "B16": 231.4530748904916
+    },
+    "QA Model": {
+      "C7": "LULUS",
+      "C8": "LULUS",
+      "C9": "LULUS",
+      "C10": "LULUS",
+      "C11": "LULUS",
+      "C12": "LULUS",
+      "C13": "LULUS",
+      "C14": "LULUS",
+      "C15": "LULUS",
+      "C16": "LULUS",
+      "C17": "LULUS"
+    },
+    "Sensitivity": {
+      "D9": -2512.212365880056
+    },
+    "Monte Carlo": {
+      "A56": 1.0,
+      "A10055": 10000.0,
+      "I56": -2838.39777630275,
+      "I10055": -3074.850852164674,
+      "Q56": 3604.871671922816,
+      "Q10055": 3929.237852960954,
+      "C7": -2931.735455168456,
+      "E7": 10000.0,
+      "J7": 0.0
+    }
+  },
+  "mismatches": [],
+  "formula_errors": []
+}

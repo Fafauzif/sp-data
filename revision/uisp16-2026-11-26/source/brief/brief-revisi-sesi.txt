@@ -1,0 +1,162 @@
+# MISSION
+
+Rebuild the LihatDulu UISP16 business-plan proposal so it reads like the two reference proposals it was supposed to imitate, using the supplied framework deck as the source of every framework graphic. The current revision fails: it is a Word report with hand-drawn figures where the reviewer wanted a designed, figure-led document. You will audit it properly, then revise it.
+
+Work in Indonesian for the proposal itself. Write your audit reports and plans in English.
+
+# WHAT IS IN THIS FOLDER
+
+- README.md, docs/CURRENT-CONTEXT.md, docs/CHAT-FEEDBACK.md — project state and the original chat instructions.
+- docs/WORD-REVIEW-COMMENTS.md — the 27 reviewer comments, verbatim, with the text each was anchored to. This is the contract.
+- docs/PLAN-NEXT-RUN-2026-11-26.md — the plan a previous audit produced. Ten tasks, four blocking decisions.
+- docs/AUDIT-HANDOFF-2026-11-26.md — verified findings from that audit.
+- docs/audit/*.md — seven deep audit reports: ref-everwear, ref-thrifty, deck-template, comments-compliance, figures-provenance, prose-voice, layout-pagination. Read all seven.
+- refs/PROPOSAL_UISP_HQ.pdf — the Thrifty reference, 29 pages.
+- refs/Ideanation_Kucing_Cimit_watermark_HQ.pdf — the EverWear reference, 37 pages.
+- upload/02-FRAMEWORK-BCC.pptx — the official framework deck, 111 slides at 20 x 11.25 inches. Every framework the proposal needs is in here as native shapes.
+- upload/LihatDulu_UISP16_Proposal (3).docx — the draft the 27 comments were written on. Keep it as the review record.
+- upload/LihatDulu_MASTER_AI_CONTEXT_2026-11-25_Updated.md — technical and competition history, including the 3D scanning evidence.
+- revision/output/LihatDulu_UISP16_Proposal_Revised.docx — the current 31-page revision. This is what you are replacing. Do not overwrite it; write ..._v2.docx.
+- revision/finalqa/LihatDulu_UISP16_Proposal_Revised.pdf — its rendered PDF.
+- survey-analysis/analysis.md — the real survey numbers: 50 responses, 46 students, 15 with a specific listing, 13 / 9 / 8 for the three difficulties.
+- revision/assets/, revision/exhibits/, revision/marketing/, revision/product/ — the figure pipelines and sources. Archive material.
+- SHA256SUMS.txt
+
+# WHAT IS ALREADY PROVEN — VERIFY, DO NOT RE-DERIVE
+
+1. The framework deck was not used, not once. None of the deck's eight hard-coded colours (256A63, 3C8C5F, 6BAF89, 179386, 6D6A49, FCD12A) appears in any figure source in the repo, and zero of the 40 images in the DOCX come from the deck's 173.
+2. Why nobody ported it: the slide is 508 mm wide, A4 is 170 mm, so the deck's 15.3 to 19 pt body type becomes 5.1 to 6.4 pt. No template drops in unmodified. This is the central technical constraint of the whole job. Solve it by re-setting each template at A4 with fewer words, never by shrinking type below 8 pt.
+3. 18 of the 28 placed figures are invented box, arrow or card geometry from three bespoke pipelines (nine TikZ files with 144 duplicated preamble lines, two SVG generators, one PIL compositor). Seven figures carry 31 arrowheads implemented three different ways.
+4. 24 body paragraphs end on a bare hyperlink token with no full stop before it ("…pada pesanan yang sama. Model bisnis"). It is the original's "Tabel C.1" build artefact with new wording.
+5. "Lemari Sora" survives in one appendix sentence and six figures, while the captions call it "kabinet contoh".
+6. KIRI Engine is still named in the body and the references, against the instruction that the vendor must not be named.
+7. BAB V is ten bracketed placeholders, including [NPV, IRR, payback]. The market figure carries no rupiah number while the paragraph under it says Rp11,63 triliun per tahun.
+8. Comment scoreboard: 10 met, 13 partly, 4 not met (comments 2, 17, 25, 26). Comments 4 and 5 are met: chapter 1 no longer mentions the business. Do not regress that.
+9. Layout is mostly fixed: mean blank space is 10.9 percent and 20 of 31 pages finish within 8 percent of the text frame. What remains is six unabsorbed figure holes (p8, p10, p13, p16, p21, p24) where one unbreakable image was pushed to the next page.
+10. The figure type floor is broken: Gambar 1 footnote renders at 5 pt, the phone UI in Gambar 6 at 2.5 pt, the price in Gambar C.1 at 2 to 3.5 pt.
+
+# ASK ME THESE FOUR QUESTIONS, THEN WORK WITHOUT INTERRUPTION
+
+Q1. Which reference is the target: EverWear's format (single column, serif, olive header band, three-level headings, frameworks quarantined to the appendix) or Thrifty's designed magazine (full-bleed colour, two columns, portraits in circles, screenshots as evidence)? My default if you do not answer: EverWear's skeleton, Thrifty's exhibit discipline.
+Q2. Chapter breaks. Both references start each chapter on a fresh page and both strand white space doing it. My comment 7 forbade chapter page breaks. Agree that the rule is "break for the figure, never for the chapter".
+Q3. The finance workbook may not exist yet. Either leave brackets with a named missing input, or build the deck's three-card financial strip (slide 20) with one bracket per card.
+Q4. Is 1.5 line spacing required by the competition guide? If not, 1.15 reclaims about six pages of room for figures.
+
+# STEP 1 — CLONE AND READ THE REAL REFERENCES
+
+The two reference PDFs have no text layer. Every page is an embedded JPEG. You must read them as images, page by page, all 66 pages. Do not skim, do not sample.
+
+    python -m pip install pymupdf python-docx python-pptx pillow
+    python -c "import pymupdf; d=pymupdf.open('refs/PROPOSAL_UISP_HQ.pdf'); [d[i].get_pixmap(dpi=110).save(f'/tmp/pages/thrifty/p{i+1:02d}.png') for i in range(d.page_count)]"
+    (do the same for the EverWear PDF)
+    then read each PNG with your file-reading tool. Read every one.
+
+Then clone the supporting repos. BPC Studio and the Competition Proposal Skill are the writing reference the reviewer kept telling the previous run to read and it never did.
+
+    git clone https://github.com/Fafauzif/BPC-Studio.git refs/BPC-Studio
+    git -C refs/BPC-Studio checkout --detach b0f6a9226b60896dffe3795578a09ffc20299a37
+    git clone https://github.com/Fafauzif/Competition-Proposal-Skill.git refs/Competition-Proposal-Skill
+    git -C refs/Competition-Proposal-Skill checkout --detach 1538659efd5350db87938c6e1746623ea6d6d8d3
+    git clone https://github.com/Fafauzif/Design-with-Character.git refs/Design-with-Character
+    git -C refs/Design-with-Character checkout --detach 40ba7e9ef8211fe461579ff7e409cee3598d80a4
+    git clone https://github.com/Fafauzif/Lihatdulu.git refs/Lihatdulu
+    git -C refs/Lihatdulu checkout --detach 29961f0043f0b1f21dde957a9b3ab0b6d0e4396e
+
+In the Competition Proposal Skill, start from refs/Competition-Proposal-Skill/chatgpt-work/proposal-workflow.zip, extract it, read START_HERE.md. In BPC Studio, read its reference atlas, the Ruang Rapi example, and the ReFeel and Dua case lessons. Those are the writing model: the argument structure, the sentence rhythm, the way a section opens. Their numbers do not transfer to LihatDulu.
+
+# STEP 2 — YOUR OWN AUDIT
+
+Produce docs/audit-v2/ with four reports before you change a word of the proposal.
+
+a) reference-system.md — the visual and rhetorical system of both references: page anatomy, figure-to-text ratio per page, how a chapter opens, how a framework is drawn, how a flow is drawn, caption conventions, citation density per page in chapter 1, and the exact prose voice with quoted examples. State plainly which of the two is the realistic target for a Word-based submission and why.
+
+b) deck-map.md — all 111 slides inventoried and grouped, then a porting spec for the 14 templates you will use: A4 box size in mm, grid, word budget per zone, minimum type size, and whether it is a full-page or half-page exhibit. Include the arithmetic that proves each one fits at 8 pt.
+
+c) gap-report.md — the current revision against the 27 comments, one row per comment with a verdict and the evidence, plus everything the first audit missed. Check at minimum: whether the market sizing is spend or revenue and whether the SOM is reproducible from the printed inputs; whether the risk heatmap is a real heatmap; whether any figure repeats a table; whether the appendix pages are figure-led; whether the executive summary reaches a number; whether the TOC, Daftar Gambar and Daftar Tabel are fields or typed text.
+
+d) chapter-plan.md — the argumentative job of each of the five chapters plus the appendices, in one line each, with the word budget and the figure budget for each. Then the section order inside each chapter.
+
+# STEP 3 — BUILD THE FIGURE SYSTEM
+
+Create revision/figures-v2/. One A4 portrait page per template, 21 x 29.7 cm, built in PowerPoint from the deck slides so shapes stay editable. Duplicate the deck slide, then Design > Slide Size > Custom 21 x 29.7 cm > Scale to Fit. Delete the deck's presenter scaffolding ("Aspects include:", "How big is the largest possible market?", "Min. 3 competitors"). Re-set type to 9.5 pt headers and 8 pt body, and cut the words per zone to 40 to 60 percent of the slide's.
+
+Port these, in this order, and export each at 300 dpi:
+
+    slide 111 -> BMC, full page 170 x 120
+    slide 110 -> Value Proposition Canvas, full page 170 x 120
+    slide 91  -> TAM/SAM/SOM, half page 170 x 95, with the rupiah figure inside each ring
+    slide 96  -> STP, full page 170 x 105
+    slides 97 + 98 -> personas, half page each 170 x 62
+    slides 99 + 100 -> AIDA, full width 170 x 95
+    slide 103 -> KPI table, half page, every target numeric
+    slides 89 + 90 -> competitor benchmarking plus a 2x2 with logos
+    slide 101 -> marketing mix 4P, half page
+    slides 3 + 6 -> risk heatmap plus a mitigation register with owners
+    slide 9   -> roadmap, half page
+    slide 20  -> financial strip, three cards
+    slide 87  -> SWOT for section 4.3 or Lampiran D
+    slides 82-85 -> chapter dividers, only if you keep chapter breaks
+
+Then the figure set. From the provenance audit: delete 8 (Gambar 5, 9, 10, 15, 16, C.4, F.1, G.1 — all restate a table or paragraph), replace 6 with the deck pages above, replace 3 with real captures (Gambar 2 uses the unused clean product-page capture already in the DOCX media; Gambar 7 becomes a real order-detail or checkout screen; Gambar 18's synthetic event photograph is cut), merge Gambar 4 into Gambar 2, rebuild Gambar 8 as one two-lane flow with a legend, keep 9 (Gambar 1, B.1, B.2, 11, 6, C.1, C.2, C.3, C.5) because they rest on real survey or product evidence.
+
+Rule that decides every figure: if the thing exists, photograph it or screenshot it. If it is a framework, port the deck. Never draw a diagram of something that has a real artefact.
+
+# STEP 4 — REWRITE THE DOCUMENT
+
+Work in the DOCX. Save as revision/output/LihatDulu_UISP16_Proposal_v2.docx.
+
+Chapter 1 must reach 550 to 650 words, carry no mention of LihatDulu or the solution, open from a global quantity down to the kos cluster, cite 2 to 3 sources per page including at least one Indonesian ministry or regulator, one Indonesian academic source, one market-research figure and one business-press item, cite the survey as your own work, use one concrete scene, and close on a sentence that forces chapter 2. The current one is 397 words, repeats its own example between 1.1 and 1.2, and has no closing sentence at all.
+
+Chapter 2 explains what the business is in one paragraph, then the value proposition canvas as a full page, then the user flow with real screenshots, then the technical mechanism. Name no 3D vendor. Describe the pipeline (frames in, reconstruction, cleanup, GLB and SPZ out, fallback to original photos when reconstruction is weak).
+
+Chapter 3 is the operating system: a swimlane with real lane labels and a legend, a supply and resources page, quality control with capacity, a roadmap, a KPI table with numeric targets, and the risk heatmap plus a register that names an owner per risk.
+
+Chapter 4 is marketing: STP, personas with a name, age and a quote, revenue-based market sizing with the maths shown, competitor benchmarking with a 2x2, 4Ps, an AIDA plan whose columns carry objective, channel and metric, and retention.
+
+Chapter 5 is financial: the three-card strip, the assumption table with named inputs, one worked order end to end (item price, buyer fee, seller commission, delivery, net to seller, net to platform), and the revenue rule stated once. Delete it from the four other places it currently appears.
+
+Appendices A to G: figure-led. Lampiran D currently has zero figures and 186 words; Lampiran E is titled "Perhitungan Keuangan" and contains no calculation. Fix both. Merge F and G if they overlap.
+
+Prose rules, non-negotiable. These are measurable and the previous run failed them:
+- At least one sentence in three opens with a conjunction (Namun, Karena itu, Sementara itu, Selain itu, Sebaliknya). The current document has one in 2,964 words.
+- No more than one paragraph in twenty may start with an "Pada …" adverbial. The current rate is 13 percent.
+- No paragraph may end on a reference token. Every paragraph ends on a full stop and a thought.
+- Address the reader at least occasionally. Thrifty uses Anda and kita and asks questions; the current document addresses nobody.
+- No sentence over 32 words. No paragraph under three sentences.
+- Indonesian headings, sentence case, numbered. Not "BAB I. Problem Background & Validation". EverWear's model is "BAB 1 PENDAHULUAN" then "1.1 Situasi" then "1.1.1 …".
+- Cut the words "dapat" and "memungkinkan" by half. The current document uses "dapat" once every 73 words.
+
+# STEP 5 — VERIFICATION GATE
+
+Do not report done until every line passes, with the evidence attached.
+
+1. No body paragraph ends on a hyperlink; no paragraph lacks a final full stop.
+2. Case-insensitive search of text and every placed image finds no "Sora" and no 3D vendor name.
+3. Every placed figure carries internal type at 8 pt or larger, checked at 100 percent on an exported PDF.
+4. Every figure is one of: a deck-derived page, a real capture, a real photograph, or a real chart of real data. Count the rest; the number should be zero.
+5. The three market numbers in the figure match the paragraph below it, the appendix, and each other. A reader can reproduce the SOM from the printed inputs.
+6. Zero split table headers. Zero orphaned captions. Zero pages losing more than 15 percent of the text frame outside the appendix.
+7. TOC, Daftar Gambar and Daftar Tabel are fields that update, and every printed page number matches the folio.
+8. Chapter 1 contains no business name. Grep it.
+9. Page count is a stated decision, not an accident. Report it against 31 and say what changed.
+10. Read page 4 aloud. It sells problem, solution, operations, marketing and finance, and reaches a number before the page ends.
+11. Re-adjudicate all 27 comments. Every PARTLY or NOT MET from the previous audit must now point at a page that shows the fix.
+12. Export a PDF with fields refreshed and look at every page as an image. Then look again at the references side by side with your pages. If a judge could tell which document had an AI build it, the job is not done.
+
+# GUARDRAILS
+
+- Do not run revision/build.py. It rebuilds from the commented draft (3) and will silently revert your work. Edit the DOCX, or port every change into the script before running it.
+- Do not invent numbers. If an input is missing, name it in the text. Ten brackets in a table is failure; one bracket in a card with a stated input is honest.
+- Do not inherit the references' own defects. Thrifty ships "CONVENTION" for Consideration, "Poter's Forces", "7Bulan", a pie label over body text, and unfilled TOC placeholders. EverWear still has its own copy sitting in a Thrifty appendix table.
+- Do not add a figure to fill space. Every figure answers a question a judge will ask.
+- Do not change the approved business design in docs/CURRENT-CONTEXT.md: UI Depok launch cluster, buyer service fee plus seller commission, standard listings free, delivery as a pass-through, B2B catalogues later, and the three-phase marketing plan.
+- Keep the original DOCX and PDF untouched. New files only.
+
+# DELIVERABLES, IN THIS ORDER
+
+1. docs/audit-v2/ with the four reports. Stop and let me read them before you build anything.
+2. revision/figures-v2/ with the 14 A4 pages and their 300 dpi exports, plus a README mapping each to its deck slide.
+3. revision/output/LihatDulu_UISP16_Proposal_v2.docx and its exported PDF.
+4. docs/REVISION-LOG-v2.md: what changed per chapter, which figures were replaced and by what, the final comment scoreboard, and the twelve gate results with evidence.
+
+Show me the four reports and the ported figure pages before you touch the proposal. I would rather review a system than a finished document I have to unpick.

@@ -1,0 +1,841 @@
+{
+  "schema": 1,
+  "study": "2026-11-21-real-chair-clip-analysis",
+  "title": "LihatDulu real chair scan — seven-take reconstruction evidence",
+  "branch": "evidence/chair-scan-study",
+  "sourceBranch": "feat/scan-video-study",
+  "sourceCommit": "c4b3192",
+  "generatedAt": "2026-11-22T07:37:26.336Z",
+  "pipeline": {
+    "frames": "FFmpeg 8.1.2, 1280 long edge, adaptive fps (base 3, max 8)",
+    "alignment": "COLMAP 4.2.1 (CUDA), OPENCV single camera, sequential matcher, largest sub-model",
+    "reconstruction": "Brush 0.3.0, 3000 steps, 2.0M splat cap",
+    "artifact": "splat-transform 3.12.0, --filter-nan SPZ",
+    "limits": "60-frame minimum, 20 registered / 0.30 ratio job gate, 60 MB / 2.5M splat artifact cap",
+    "thresholdsChanged": false
+  },
+  "summary": {
+    "takes": 7,
+    "files": 80,
+    "totalBytes": 20535320,
+    "missingFiles": [],
+    "golden": {
+      "extracted": 76,
+      "registered": 76,
+      "ratio": 1,
+      "totalMs": 291281,
+      "splatCount": 27447,
+      "artifactBytes": 544854,
+      "format": "spz",
+      "timings": {
+        "extractMs": 2730,
+        "alignMs": 128856,
+        "trainMs": 158546,
+        "convertMs": 1149,
+        "totalMs": 291281
+      }
+    },
+    "repeat": {
+      "extracted": 60,
+      "registered": 60,
+      "ratio": 1,
+      "totalMs": 289718,
+      "splatCount": 25181,
+      "artifactBytes": 495405,
+      "format": "spz",
+      "timings": {
+        "extractMs": 6244,
+        "alignMs": 119804,
+        "trainMs": 162142,
+        "convertMs": 1528,
+        "totalMs": 289718
+      }
+    }
+  },
+  "takes": [
+    {
+      "take": "Golden",
+      "role": "golden",
+      "clip": "VID_20261121_184227976.mp4",
+      "durationS": 25.3,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20284595,
+        "codec": "h264",
+        "sourceBytes": 64274172,
+        "quality": "original"
+      },
+      "jobId": "0283ca80-8f9c-4fa4-85a6-f0edb5fc962c",
+      "run": {
+        "extracted": 76,
+        "registered": 76,
+        "ratio": 1,
+        "totalMs": 291281,
+        "splatCount": 27447,
+        "artifactBytes": 544854,
+        "format": "spz",
+        "timings": {
+          "extractMs": 2730,
+          "alignMs": 128856,
+          "trainMs": 158546,
+          "convertMs": 1149,
+          "totalMs": 291281
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/0283ca80-8f9c-4fa4-85a6-f0edb5fc962c/output/scan.spz",
+          "bytes": 544854,
+          "sha256": "7e94465ea86b5b24b188495640331a90b1b60e0f60d93fb0d07fb6a4792142a1"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/0283ca80-8f9c-4fa4-85a6-f0edb5fc962c/job.json",
+          "bytes": 1472,
+          "sha256": "aae2cd244ac8d709eb10de76700dec481b6dd05e69c6a2da9173f09d315d9520"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/0283ca80-8f9c-4fa4-85a6-f0edb5fc962c/stills/000.jpg",
+            "bytes": 291019,
+            "sha256": "607f96aec0effc849b4376781002b4e4ccfcd546f7eaf2bac850dac926ec740f"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/0283ca80-8f9c-4fa4-85a6-f0edb5fc962c/stills/001.jpg",
+            "bytes": 278481,
+            "sha256": "6e3548c6f4d8e743a8976f1493321a6f23d326459841d95d8ada1259693af6f4"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/0283ca80-8f9c-4fa4-85a6-f0edb5fc962c/stills/002.jpg",
+            "bytes": 275760,
+            "sha256": "ee4f5eaff8fc18fd45b9762361188e2ad7657baa29ac836174bb86a53ae56273"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184227/1440.png",
+            "bytes": 268856,
+            "sha256": "de72c26b636a30b6982b61159ba680d6c579aa35200322757bb1565591ffc5c1"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184227/390.png",
+            "bytes": 102544,
+            "sha256": "d3809320eaf93694c4117f8ccad0d1841139fbf7868727c05aa85db64e9da2bc"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184227/viewer-1440.png",
+            "bytes": 121573,
+            "sha256": "ddbe96ae324e7950b9f0891067cdb6df3419ad013d6aaea3a25651a2ff850bed"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184227/viewer-390.png",
+            "bytes": 26631,
+            "sha256": "1d46d6f73d08056f636896f1a80324b6b12287c14a955896cb6b4a4857ca3c3a"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184227/report.json",
+            "bytes": 618,
+            "sha256": "160c95db32c062f40fc7f50cba947b04ed5099dfa52f97e89de54dcdd6da621a"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Repeat",
+      "role": "repeat",
+      "clip": "VID_20261121_184349140.mp4",
+      "durationS": 20.1,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20270281,
+        "codec": "h264",
+        "sourceBytes": 51012275,
+        "quality": "original"
+      },
+      "jobId": "a3e551df-7e05-4d0c-8146-d2a686a8d30a",
+      "run": {
+        "extracted": 60,
+        "registered": 60,
+        "ratio": 1,
+        "totalMs": 289718,
+        "splatCount": 25181,
+        "artifactBytes": 495405,
+        "format": "spz",
+        "timings": {
+          "extractMs": 6244,
+          "alignMs": 119804,
+          "trainMs": 162142,
+          "convertMs": 1528,
+          "totalMs": 289718
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/a3e551df-7e05-4d0c-8146-d2a686a8d30a/output/scan.spz",
+          "bytes": 495405,
+          "sha256": "7d17cb0a75013090f9752d7f3f4720bf148fd131b4872ed9dd90b6a89b1ca33a"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/a3e551df-7e05-4d0c-8146-d2a686a8d30a/job.json",
+          "bytes": 1472,
+          "sha256": "eb1c0bc556ca5520f2f7760ac76aa88be2170feff1cdb3746dfbb857f7aa9968"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/a3e551df-7e05-4d0c-8146-d2a686a8d30a/stills/000.jpg",
+            "bytes": 292103,
+            "sha256": "8da85a6a759ff083fca1bdc53810175f180f071bb81f8d66c807c84f66d6e4e4"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/a3e551df-7e05-4d0c-8146-d2a686a8d30a/stills/001.jpg",
+            "bytes": 236323,
+            "sha256": "9286fd2d5e3d73b68d93855b78fefadd1dba2881b086a2f4b0c8dedb5f609156"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/a3e551df-7e05-4d0c-8146-d2a686a8d30a/stills/002.jpg",
+            "bytes": 271278,
+            "sha256": "ded9e6ab51eb4fb67fc16a4c41d9a687fd7d2e3b772a933610f6962bf8e53e67"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184349/1440.png",
+            "bytes": 203179,
+            "sha256": "dfd66c9d622fbfd97aef7420637a12224016bb3688439dc3463946151b201d2f"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184349/390.png",
+            "bytes": 91554,
+            "sha256": "6b246c85fe503540c899c44b3be5adfb91f1e810dfecd1e5d94858a1f87bc187"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184349/viewer-1440.png",
+            "bytes": 58331,
+            "sha256": "bc613d9aa7928aef4f4c2b772d8785845fbc660305ffc2feaa2c35e3c5b95e34"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184349/viewer-390.png",
+            "bytes": 14574,
+            "sha256": "6a39c7113c0f35ab0c5379b729d9431c1b5725e5096da50c62f604a11a4184d0"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184349/report.json",
+            "bytes": 617,
+            "sha256": "0d0a2637c94af9be0318accefe2ab344b7c84f2e3141db9b040a4b4768bf1210"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Variant 10.03 s",
+      "role": "variant",
+      "clip": "VID_20261121_184212135.mp4",
+      "durationS": 10,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20376857,
+        "codec": "h264",
+        "sourceBytes": 25541807,
+        "quality": "original"
+      },
+      "jobId": "f4755525-a4e8-4eb8-a279-5b8adb45c6ad",
+      "run": {
+        "extracted": 60,
+        "registered": 60,
+        "ratio": 1,
+        "totalMs": 332873,
+        "splatCount": 34342,
+        "artifactBytes": 708640,
+        "format": "spz",
+        "timings": {
+          "extractMs": 1479,
+          "alignMs": 166342,
+          "trainMs": 164537,
+          "convertMs": 515,
+          "totalMs": 332873
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/f4755525-a4e8-4eb8-a279-5b8adb45c6ad/output/scan.spz",
+          "bytes": 708640,
+          "sha256": "45adbcf67c5e9ec0b90ed8c70af6f6d7a6c0fed88cecff2d549f43c82a162170"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/f4755525-a4e8-4eb8-a279-5b8adb45c6ad/job.json",
+          "bytes": 1467,
+          "sha256": "ad23632265efe453cbd4ad42000ec68398f198d240376e3d1863a70914897b20"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/f4755525-a4e8-4eb8-a279-5b8adb45c6ad/stills/000.jpg",
+            "bytes": 288550,
+            "sha256": "3cc7b23767e9ae78d91ded287757c167ecdc22739e088122d77f657cd09b9f98"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/f4755525-a4e8-4eb8-a279-5b8adb45c6ad/stills/001.jpg",
+            "bytes": 297202,
+            "sha256": "e41b2f2d0254321784816292ced346db4dbaa6b61c5466bcea31e1f6b04c879a"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/f4755525-a4e8-4eb8-a279-5b8adb45c6ad/stills/002.jpg",
+            "bytes": 161595,
+            "sha256": "2741daa82755537116f869174d1a15cba4c3d48490d503c602ffa31daa4bc50a"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184212/1440.png",
+            "bytes": 182413,
+            "sha256": "273f384a71b9e8a9501202a637f2e1f0e95467a2eb0ad56452af5d996b0846dc"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184212/390.png",
+            "bytes": 85428,
+            "sha256": "311dfe2b9835d46cf3c6b35f9415f66d22dc1fd60172eb21b9aff267ae4a5569"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184212/viewer-1440.png",
+            "bytes": 46346,
+            "sha256": "905ccded8af76e19a461723b38e29fa3b925b22bc3eb3e992211a38eb737f76e"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184212/viewer-390.png",
+            "bytes": 11935,
+            "sha256": "f32cebe5560dcdb87fc3e48b860959d1bdb6f1d5fc4746afd8ce623b769c97a0"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184212/report.json",
+            "bytes": 617,
+            "sha256": "dd0a6258684266d6933a31a5da7718f99330c82abd6b592c4bc1dacc663ef329"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Variant 10.21 s",
+      "role": "variant",
+      "clip": "VID_20261121_184320272.mp4",
+      "durationS": 10.2,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20300515,
+        "codec": "h264",
+        "sourceBytes": 25903775,
+        "quality": "original"
+      },
+      "jobId": "15d33c98-46e5-4bb0-90dc-bbe86ffc21f9",
+      "run": {
+        "extracted": 60,
+        "registered": 60,
+        "ratio": 1,
+        "totalMs": 244142,
+        "splatCount": 25811,
+        "artifactBytes": 523603,
+        "format": "spz",
+        "timings": {
+          "extractMs": 1646,
+          "alignMs": 106862,
+          "trainMs": 135113,
+          "convertMs": 521,
+          "totalMs": 244142
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/15d33c98-46e5-4bb0-90dc-bbe86ffc21f9/output/scan.spz",
+          "bytes": 523603,
+          "sha256": "89414f383d15d194790304c7ce1e5789b932ee2d39bf257e0b9672eaae5b7551"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/15d33c98-46e5-4bb0-90dc-bbe86ffc21f9/job.json",
+          "bytes": 1471,
+          "sha256": "f7f3ff3d51dd66d398e4d559dd76da02577b9cdbc9d44bbb0a0a7c38dc711baf"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/15d33c98-46e5-4bb0-90dc-bbe86ffc21f9/stills/000.jpg",
+            "bytes": 271593,
+            "sha256": "2bfeee1db945ae7a8883579bacab41f343d3383a09b3f29a083fe5258f7925cb"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/15d33c98-46e5-4bb0-90dc-bbe86ffc21f9/stills/001.jpg",
+            "bytes": 235395,
+            "sha256": "8a41efded18a67c4d517070e4f2f6338a99341c3858aa534788291d69ebdc209"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/15d33c98-46e5-4bb0-90dc-bbe86ffc21f9/stills/002.jpg",
+            "bytes": 190160,
+            "sha256": "e8833680e392edc2efda0f0ae6f1e760d9bed3368c1957550376d32df32fce1a"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184320/1440.png",
+            "bytes": 202027,
+            "sha256": "a21e11600b5f3cc98e4c7c1ec7632fe2588d26dd9e39fd1d445fa6899442c6e2"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184320/390.png",
+            "bytes": 91050,
+            "sha256": "2bb3004c70a0c83b7c0d937805135a2852111aea6081ef8d356fd99f461bccf5"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184320/viewer-1440.png",
+            "bytes": 60337,
+            "sha256": "40763115dbc0705bac22d5782c0245024f57e4c640c6f4e1bd2206fc0788711e"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184320/viewer-390.png",
+            "bytes": 15367,
+            "sha256": "dc1761da31d20bbe774602e970fd7f3fba477ea0c307394ab568450622258504"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184320/report.json",
+            "bytes": 617,
+            "sha256": "5537b9da71afa3d2787c74a7dd888050caa4324ab75e3ad285385fec9feb71f5"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Variant 14.59 s",
+      "role": "variant",
+      "clip": "VID_20261121_184453628.mp4",
+      "durationS": 14.6,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20269747,
+        "codec": "h264",
+        "sourceBytes": 36955391,
+        "quality": "original"
+      },
+      "jobId": "bb588361-7337-490d-9dbf-2ce9492ca3b1",
+      "run": {
+        "extracted": 72,
+        "registered": 72,
+        "ratio": 1,
+        "totalMs": 259377,
+        "splatCount": 27466,
+        "artifactBytes": 538833,
+        "format": "spz",
+        "timings": {
+          "extractMs": 2400,
+          "alignMs": 113234,
+          "trainMs": 143254,
+          "convertMs": 489,
+          "totalMs": 259377
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/bb588361-7337-490d-9dbf-2ce9492ca3b1/output/scan.spz",
+          "bytes": 538833,
+          "sha256": "1e159892f59f32eb6f7b7f35e4dccb2affd8eb3463e1a77ee5064afb534c1bb5"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/bb588361-7337-490d-9dbf-2ce9492ca3b1/job.json",
+          "bytes": 1471,
+          "sha256": "09b7bf0a2d77697062d7789a12f76ede4d98c44fd9bcee03a01daa62f7403962"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/bb588361-7337-490d-9dbf-2ce9492ca3b1/stills/000.jpg",
+            "bytes": 293795,
+            "sha256": "c88a332f745106a35e076c2d2fc28aca4535e85bdabaf6aa20d80fae595022a3"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/bb588361-7337-490d-9dbf-2ce9492ca3b1/stills/001.jpg",
+            "bytes": 253341,
+            "sha256": "a329e26f32324ce002bc5629853eaa2f2ae351378f45c6d275e844235a6bd90b"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/bb588361-7337-490d-9dbf-2ce9492ca3b1/stills/002.jpg",
+            "bytes": 233293,
+            "sha256": "40b1425643c8e43ae4727211343f744214f919194c1618b64359917162294e57"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184453/1440.png",
+            "bytes": 198227,
+            "sha256": "aa962de93dc25f99534206a48e64f49cc9096ec5d128a38953b662301d8bb7c5"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184453/390.png",
+            "bytes": 90619,
+            "sha256": "54963b57da7b86b94c640a1efce5dce4be7f00282fca27c852f94ca71f7b9dfb"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184453/viewer-1440.png",
+            "bytes": 55976,
+            "sha256": "2e9bf4af38ec527c4dcbab399565be279272aec6f9cbc483615feda8122e9574"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184453/viewer-390.png",
+            "bytes": 14411,
+            "sha256": "2537ca1202c4d990db2f29fe541ec33e71d543049cd6afd8fa594a7cc490d7da"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184453/report.json",
+            "bytes": 617,
+            "sha256": "977d36fc5d468ffedce6de16a3ee46083a820b628674a6ab5ae360788f2e869b"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Variant 15.00 s",
+      "role": "variant",
+      "clip": "VID_20261121_184626753.mp4",
+      "durationS": 15,
+      "resolution": "1920x1080",
+      "capture": {
+        "fps": 60,
+        "bitRate": 20272400,
+        "codec": "h264",
+        "sourceBytes": 38014024,
+        "quality": "original"
+      },
+      "jobId": "e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe",
+      "run": {
+        "extracted": 74,
+        "registered": 74,
+        "ratio": 1,
+        "totalMs": 269539,
+        "splatCount": 33284,
+        "artifactBytes": 651694,
+        "format": "spz",
+        "timings": {
+          "extractMs": 3020,
+          "alignMs": 130291,
+          "trainMs": 135725,
+          "convertMs": 503,
+          "totalMs": 269539
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe/output/scan.spz",
+          "bytes": 651694,
+          "sha256": "06bda8f4b964ab0b08b925912a1a298b63685ac9225485f66c2ed55433893195"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe/job.json",
+          "bytes": 1467,
+          "sha256": "abc9388abda1c22fc75ea16b20b45d0ffb6641899166f0c5dd702434a5caf65e"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe/stills/000.jpg",
+            "bytes": 293706,
+            "sha256": "ee0f7b3fa7f2c206fd18df83e6e5b99403a1775ec3427f6030813e1166be99bc"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe/stills/001.jpg",
+            "bytes": 209233,
+            "sha256": "7acc6cf383b5cd32651985c8c5b54f1d0df331d1ec596dc001f154bfa632f984"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/e8d4c2a3-e898-422e-9d83-a9f2dd1b6cbe/stills/002.jpg",
+            "bytes": 248181,
+            "sha256": "7a1b732a08a07a56609133203d29b526f7f547b26789ff7fc03e652595bebf3c"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184626/1440.png",
+            "bytes": 204601,
+            "sha256": "716be22ddaa86f3080604c170c33e78bf9df386da44123d93809522602e109a6"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184626/390.png",
+            "bytes": 92221,
+            "sha256": "079c5a4708ad716452f6b1ba2a552dddfa8d20ebf169a124ba506a5352524f57"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184626/viewer-1440.png",
+            "bytes": 69603,
+            "sha256": "4e85c58283fae1110917f9eefccea734b0e0cfa0d71830269853db77190e3a1d"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184626/viewer-390.png",
+            "bytes": 16812,
+            "sha256": "03ac6104556287c30cfacb83ff11d7091ddeac57bc04bc29976f0e08295593fa"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184626/report.json",
+            "bytes": 617,
+            "sha256": "61398af915d42caaa58e0ea6fe89b2089dd9504627c88b28436124c8c086dea3"
+          }
+        }
+      },
+      "missing": []
+    },
+    {
+      "take": "Variant 4K 14.62 s",
+      "role": "variant",
+      "clip": "VID_20261121_184714115.mp4",
+      "durationS": 14.6,
+      "resolution": "3840x2160",
+      "capture": {
+        "fps": 29.87,
+        "bitRate": 49147216,
+        "codec": "h264",
+        "sourceBytes": 89837789,
+        "quality": "original"
+      },
+      "jobId": "37a5694c-e960-46d2-84cb-38eafdb4f134",
+      "run": {
+        "extracted": 71,
+        "registered": 71,
+        "ratio": 1,
+        "totalMs": 245222,
+        "splatCount": 18461,
+        "artifactBytes": 353915,
+        "format": "spz",
+        "timings": {
+          "extractMs": 3874,
+          "alignMs": 105922,
+          "trainMs": 134968,
+          "convertMs": 458,
+          "totalMs": 245222
+        }
+      },
+      "visualVerdict": "recognizable chair (programmatic pixel verdict; no human reviewed the renders)",
+      "files": {
+        "spz": {
+          "role": "final SPZ",
+          "path": "var/scans/37a5694c-e960-46d2-84cb-38eafdb4f134/output/scan.spz",
+          "bytes": 353915,
+          "sha256": "54d17ebacd79cf71ab1a1c88172a2a26cdfa8cc4851c07513d6e1475563e4600"
+        },
+        "jobMetadata": {
+          "role": "job metadata",
+          "path": "var/scans/37a5694c-e960-46d2-84cb-38eafdb4f134/job.json",
+          "bytes": 1471,
+          "sha256": "0b75464b040448d6e7b92751809c9cdec5d690e40b3836b9a11956afe8fa50a2"
+        },
+        "stills": [
+          {
+            "role": "source still",
+            "path": "var/scans/37a5694c-e960-46d2-84cb-38eafdb4f134/stills/000.jpg",
+            "bytes": 418979,
+            "sha256": "ad7f53f6926e2d90e1c4f92b9374f43ff4b3c3919709d72ff2e73c274db2f1a8"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/37a5694c-e960-46d2-84cb-38eafdb4f134/stills/001.jpg",
+            "bytes": 242111,
+            "sha256": "fc5dfeddac1bba5160c3e6b53a43be91309ec039f31b7d62a6c5bb0d94d48025"
+          },
+          {
+            "role": "source still",
+            "path": "var/scans/37a5694c-e960-46d2-84cb-38eafdb4f134/stills/002.jpg",
+            "bytes": 339507,
+            "sha256": "28743241a9f32be602d6a4016a42c719629d81fc62bd1b037a38c9d0f2f91964"
+          }
+        ],
+        "previews": {
+          "desktop": {
+            "role": "desktop preview screenshot",
+            "path": "var/spike/preview-184714/1440.png",
+            "bytes": 210603,
+            "sha256": "2443244d32c03f2732b5fd267b974a24d3d39c03536e67c5808c5cd0075de009"
+          },
+          "mobile": {
+            "role": "mobile preview screenshot",
+            "path": "var/spike/preview-184714/390.png",
+            "bytes": 92109,
+            "sha256": "e27d12349a075ce2a2f94bff75724a53dd56b5c26264424ef73eabb1b5fd738a"
+          },
+          "viewerDesktop": {
+            "role": "viewer-only desktop screenshot",
+            "path": "var/spike/preview-184714/viewer-1440.png",
+            "bytes": 67801,
+            "sha256": "7a69b37fcb8b6cebbeef5f538c3b3cc87b929a2df85fd8cc0127df289f841e6a"
+          },
+          "viewerMobile": {
+            "role": "viewer-only mobile screenshot",
+            "path": "var/spike/preview-184714/viewer-390.png",
+            "bytes": 16237,
+            "sha256": "24d4ff627586c89c46da1e0924aaef4266af6cc7737980235218d7675e17e14f"
+          },
+          "report": {
+            "role": "preview metadata",
+            "path": "var/spike/preview-184714/report.json",
+            "bytes": 617,
+            "sha256": "60c1c6d31d24d40d382ec69e508303cfa8ac0135f33143012aba60ce9f4c7a91"
+          }
+        }
+      },
+      "missing": []
+    }
+  ],
+  "sharedEvidence": [
+    {
+      "role": "standalone seven-take viewer",
+      "path": "var/spike/kursi-3d.html",
+      "bytes": 8336601,
+      "sha256": "62fd23da49247cbe293a752744342f0338ed90a89048046ed04c31d55245d415"
+    },
+    {
+      "role": "golden-pair benchmark rows",
+      "path": "var/spike/results-golden.json",
+      "bytes": 2721,
+      "sha256": "eb75dc3fc8c2cef3864174981f1e1f1b36e8c66f985cff4549dbc494678567ef"
+    },
+    {
+      "role": "variant benchmark rows (184626 row is the 5 fps retry run)",
+      "path": "var/spike/results-variants.json",
+      "bytes": 6789,
+      "sha256": "f521dd4d2861cbbbb3c97f0620875dff5f7856feb0decd8dee85a34ec46b35bd"
+    },
+    {
+      "role": "184626 retry raw row",
+      "path": "var/spike/results-variants-184626.json",
+      "bytes": 1359,
+      "sha256": "d60dc928953139da93d5fcd96255532149240c2b5e674b73b275ff00d19eb4a8"
+    },
+    {
+      "role": "184626 attempt-1 footage_short failure",
+      "path": "var/spike/results-variants-attempt1.json",
+      "bytes": 5797,
+      "sha256": "f0c108a7b0494c7075e2516a0e487ac8641d326594aaa006e77faa90646e4d79"
+    },
+    {
+      "role": "Task 4 gate notes",
+      "path": "var/spike/golden-notes.md",
+      "bytes": 3226,
+      "sha256": "85733adec09c625878f1a40caddd37cda4a02812671a6f263801ef31bb6aefae"
+    },
+    {
+      "role": "seven-take comparison and failure analysis",
+      "path": "var/spike/comparison.md",
+      "bytes": 3182,
+      "sha256": "15712769199053eb2b579c4020bbe1d705055f44402243f712949290a2e20cd4"
+    },
+    {
+      "role": "programmatic visual verdicts",
+      "path": "var/spike/visual-verdicts.md",
+      "bytes": 5614,
+      "sha256": "992403ee24fef8f5bebafa531e1ed31105126eb6fd598a0a0365c39b5f8b0465"
+    },
+    {
+      "role": "clip inventory and quality classification",
+      "path": "var/spike/clip-inventory.json",
+      "bytes": 4751,
+      "sha256": "71c58be25f5996662b198f33c31f1625e10135e01e2642a492557d3288be9561"
+    },
+    {
+      "role": "golden/repeat/variant role mapping",
+      "path": "var/spike/clip-roles.json",
+      "bytes": 755,
+      "sha256": "4cbd5d9152a2d2c0dc9abf2ea5ad9205c3e547c2610ec77709008ae1ac2fd6fe"
+    }
+  ],
+  "exclusions": {
+    "reason": "Raw clips, extracted frames, COLMAP databases, tool binaries, logs and unrelated jobs are intentionally not published; the job UUID is the capability for a live preview.",
+    "patterns": [
+      "var/spike/clips/**",
+      "var/spike/clips-compressed/**",
+      "var/spike/frames/**",
+      "var/scans/*/clip*",
+      "var/scans/*/frames/**",
+      "var/scans/*/work/**",
+      "var/scans/*/logs/**",
+      "var/tools/**",
+      "var/scans/901ff9b8-*/** (superseded golden attempt)",
+      "var/scans/57b03016-*/**, var/scans/6f036667-*/** (South Building smoke)",
+      "var/scans/c800f454-*/**, var/scans/211a5c8d-*/**, var/scans/e91cfbee-*/**, var/scans/b2f48bde-*/** (failed attempts, kept local)"
+    ]
+  },
+  "privacy": {
+    "rawVideoPublished": false,
+    "extractedFramesPublished": false,
+    "credentialsFound": "none",
+    "images": "Chair and room photos from the operator's own recordings, published intentionally as evidence.",
+    "note": "Preview report.json files contain absolute local Windows paths (username only; the repository owner is named in the remote URL). Job metadata has no client identifiers."
+  },
+  "audit": {
+    "verifyHashes": "sha256sum <file>  (PowerShell: Get-FileHash -Algorithm SHA256 <file>)",
+    "view": "Open var/spike/kursi-3d.html in Chrome or Edge; the take dropdown switches among all seven SPZ payloads.",
+    "spzInfo": "node node_modules/@playwright/splat-transform/bin/cli.mjs <scan.spz> --info json (after npm ci)",
+    "compare": "var/spike/results-golden.json and var/spike/results-variants.json hold the raw per-take rows; var/spike/visual-verdicts.md holds the pixel metrics."
+  }
+}

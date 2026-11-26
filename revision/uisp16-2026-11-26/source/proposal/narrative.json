@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "title": "Ringkasan eksekutif",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Menjelang pindah kos, harga lemari bekas mungkin sudah cocok. Namun, keputusan membeli masih bergantung pada kondisi engsel, ruang yang tersedia, dan cara membawa lemari itu pulang. Dalam survei kami, 14 dari 17 mahasiswa yang pernah mempertimbangkan iklan furnitur bekas kesulitan memastikan kondisi barang. Karena itu, kami memusatkan layanan pada keputusan yang harus diambil setelah pembeli menemukan iklan.",
+            "LihatDulu mempertemukan pembeli dan penjual furnitur rumah tangga bekas. Penjual menyiapkan foto unit, ukuran, dan catatan kondisi melalui ponsel. Sementara itu, pembeli menggunakan informasi tersebut untuk menilai barang dan memilih cara menerimanya. Penjual menyimpan unit hingga serah terima. Jika kondisi berbeda dari yang disepakati, tim dukungan menelusuri bukti yang tercatat pada pesanan.",
+            "Kami mulai dari satu klaster kos sekitar Universitas Indonesia, Depok. Pedagang furnitur bekas memasok katalog secara rutin, sementara penghuni yang akan pindah menambah pilihan. Setelah klaster awal mampu memenuhi pesanan, konten kreator “Muat Nggak?” mengarahkan pembeli ke unit yang tersedia di klaster terdekat. Selanjutnya, Bursa Pindahan mempertemukan pembeli yang ingin memeriksa barang dengan penjual yang memerlukan bantuan membuat iklan.",
+            "Skenario dasar memperkirakan pendapatan marketplace tahun ketiga sebesar {{BASE_MARKETPLACE_Y3_REVENUE}} dari {{BASE_Y3_COMPLETED_ORDERS}} pesanan selesai. Hingga 2036, nilai kini bersih proyek mencapai {{BASE_NPV}} dan arus kas proyek tidak berubah tanda, sehingga IRR tidak terdefinisi. Karena itu, kami mengusulkan pilot satu klaster. Modal persiapan sebesar {{BASE_INITIAL_FUNDING}} merupakan asumsi model. Kami menguji terlebih dahulu kesiapan stok, biaya transaksi, dan kontribusi setelah akuisisi sebelum memutuskan ekspansi."
+          ],
+          "exhibits": []
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "title": "BAB 1 Pendahuluan",
+      "sections": [
+        {
+          "heading": "1.1 Latar belakang masalah",
+          "paragraphs": [
+            "Centre for Industrial Studies (2025) memperkirakan nilai produksi furnitur global mencapai US$471 miliar pada 2024. Namun, besarnya produksi hanya memberi konteks tentang skala industri. Angka itu tidak memperlihatkan berapa banyak barang yang masih layak pakai menemukan pemilik berikutnya. Pada tahap akhir umur pakai, Joint Research Centre mencatat estimasi sekitar 10 juta ton limbah furnitur per tahun di Uni Eropa (Faraca et al., 2024, hlm. 201). Besaran tersebut menunjukkan masalah di wilayah yang diteliti dan perlu dibaca dalam batas geografisnya.",
+            "Di Indonesia, guna ulang dan perbaikan menjadi bagian dari upaya memperpanjang siklus hidup produk (Kementerian Lingkungan Hidup dan Badan Pengendalian Lingkungan Hidup, t.t.). Namun, perpindahan barang layak pakai memerlukan lebih dari tersedianya barang. Pemilik lama perlu menemukan orang yang akan menggunakannya, sedangkan pembeli perlu menilai kondisi dan menghitung upaya membawa barang itu ke tempat tinggal. Karena itu, keputusan sehari-hari tentang satu unit furnitur menjadi bagian penting dari kemungkinan guna ulangnya.",
+            "Bayangkan Anda menemukan lemari bekas beberapa hari sebelum pindah kos. Dari satu foto, Anda bisa melihat bentuk dan warna lemari. Namun, Anda belum tahu apakah engselnya masih berfungsi atau lemari bisa melewati belokan tangga. Sementara itu, harga angkut mungkin baru tersedia setelah penjual memberi alamat dan pembeli memastikan ukuran unit. Jika kunjungan menunjukkan bahwa barang sulit dibawa masuk, biaya perjalanan dan waktu yang sudah dikeluarkan tidak membantu memenuhi kebutuhan sebelum pindah.",
+            "Jadwal pindah juga memberi batas waktu yang jelas. Barang yang baru bisa diambil setelah masa sewa habis tidak lagi memenuhi kebutuhan yang sama. Penundaan menjadi pertimbangan praktis di samping harga, kondisi, dan ukuran unit.",
+            "Contoh tersebut memperlihatkan tiga hal yang perlu dipastikan pada waktu yang sama: kondisi barang, kecocokan dengan ruang, dan cara mengangkutnya. Selain itu, keputusan tentang satu hal dapat mengubah keputusan lain. Lemari yang muat di kamar tetap sulit dipilih jika tidak bisa melewati pintu, sedangkan harga unit yang murah dapat berubah setelah biaya angkut dihitung. Karena itu, mencari barang yang cocok dan menyelesaikan pembelian merupakan dua pekerjaan yang berbeda."
+          ],
+          "exhibits": []
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "title": "",
+      "sections": [
+        {
+          "heading": "1.2 Identifikasi masalah utama",
+          "paragraphs": [
+            "Pratama et al. (2021) mendokumentasikan kebutuhan jual beli perabot kos dalam pengembangan layanan untuk penghuni kos di Yogyakarta. Di Depok, liputan detikFinance memperlihatkan penjualan kembali meja, lemari, dan barang layak pakai di Mall Rongsok (Faturahman, 2026). Kedua contoh ini menunjukkan adanya jalur peredaran barang bekas dalam konteks yang berbeda. Namun, keberadaan kanal jual beli belum menjawab bagaimana penyewa di sekitar kampus menilai satu unit dan mengatur pengambilannya.",
+            "Iklan membantu calon pembeli menyaring barang dari jenis, harga, dan lokasi. Namun, fungsi bagian tertentu sering baru bisa diperiksa setelah pembeli mendapat foto tambahan atau datang melihat barang. Sementara itu, pembeli membutuhkan dimensi untuk menilai ruang dan akses masuk, serta informasi yang cukup untuk menentukan ongkos pengambilan. Jika keterangan itu tidak tersedia ketika membandingkan beberapa iklan, pembeli harus menghubungi penjual sebelum menilai apakah kunjungan layak dilakukan.",
+            "Toko fisik memberi kesempatan untuk melihat unit dan memeriksa fungsinya. Sebaliknya, percakapan melalui pesan memberi kesempatan untuk meminta rincian tanpa langsung melakukan perjalanan. Masing-masing membantu pada tahap yang berbeda. Namun, penghuni kos yang punya waktu pindah terbatas tetap perlu menghubungkan jawaban tentang kondisi, ukuran, dan cara membawa barang sebelum membuat janji."
+          ],
+          "exhibits": []
+        },
+        {
+          "heading": "1.3 Validasi masalah",
+          "paragraphs": [
+            "Survei tim penulis pada 25 dan 26 November 2026 menghimpun 60 respons, termasuk 56 mahasiswa. Dari 17 responden yang mempertimbangkan sedikitnya satu iklan spesifik, semuanya berstatus mahasiswa. Mereka dapat memilih beberapa hambatan. Kondisi barang disebut oleh 14 responden, sementara kecocokan ruang dan cara atau biaya angkut masing-masing disebut oleh 10 responden (Survei tim penulis, 2026). Rincian jawaban dan kelompok responden tersedia di Lampiran B.",
+            "Selain itu, 12 dari 17 responden meminta informasi tambahan dan delapan melihat barang secara langsung. Jawaban ini menggambarkan pengalaman kelompok yang mengisi survei, dengan status tempat tinggal dan lokasi responden yang tidak diukur. Namun, pola tindakannya menunjukkan pekerjaan yang masih tersisa setelah menemukan iklan. Karena itu, kebutuhan yang perlu dijawab ialah bagaimana penyewa menilai kelayakan satu unit sebelum menghabiskan waktu untuk kunjungan atau mengatur pengambilan."
+          ],
+          "exhibits": [
+            "SURVEY_BARRIERS"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "title": "BAB 2 Model bisnis",
+      "sections": [
+        {
+          "heading": "2.1 Deskripsi bisnis LihatDulu",
+          "paragraphs": [
+            "LihatDulu adalah marketplace furnitur rumah tangga bekas yang dimulai di klaster kos sekitar UI Depok. Penjual mendokumentasikan unit dengan foto asli, dimensi, kondisi, harga, ketersediaan, dan lokasi. Sementara itu, pembeli memeriksa bagian yang aus, mencocokkan ukuran barang dengan ruang, dan melihat pilihan serah terima pada halaman yang sama. Selain itu, pembeli bisa mencoba pratinjau ruang pada barang yang mendukung. Barang tetap berada di tempat penjual hingga diambil pembeli atau diantar melalui penyedia pengiriman pada rute yang tersedia."
+          ],
+          "exhibits": [
+            "PRODUCT_HERO"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "title": "",
+      "sections": [
+        {
+          "heading": "2.2 Proposisi nilai bagi pembeli dan penjual",
+          "paragraphs": [
+            "Pembeli kos perlu memutuskan apakah satu barang layak dilihat dan bisa dibawa pulang. Karena itu, halaman barang menyatukan foto asli, ukuran, catatan kondisi, dan pilihan penerimaan. Sementara itu, penjual mengikuti panduan untuk menyiapkan keterangan yang dapat dipakai kembali ketika pembeli lain menanyakan unit yang sama.",
+            "Foto, dimensi terukur, dan catatan kondisi menjadi bukti minimum agar iklan bisa terbit. Model tiga dimensi menambah sudut pandang jika bentuknya cukup terbaca. Namun, pembeli tetap memakai foto asli untuk memeriksa cacat dan memakai ukuran dari penjual untuk menilai kecocokan. Dengan cara ini, publikasi iklan tetap berjalan saat rekonstruksi model belum siap."
+          ],
+          "exhibits": [
+            "VPC"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "title": "",
+      "sections": [
+        {
+          "heading": "2.3 Perjalanan penjual dan pembeli",
+          "paragraphs": [
+            "Penjual mengambil foto dengan panduan ponsel, meninjau hasilnya, lalu memasukkan ukuran dan kondisi barang. Tim katalog meminta perbaikan jika foto atau keterangan belum cukup untuk menilai unit. Sementara itu, calon pembeli dapat melihat jarak, memeriksa bagian yang aus, dan memperkirakan posisi barang dalam pratinjau ruang. Pemeriksaan lebar pintu dan akses angkut tetap dilakukan sebelum pemindahan.",
+            "Pembeli memilih ambil sendiri atau meminta pengiriman. Setelah itu, penjual mengonfirmasi stok dan jadwal, lalu tim pesanan memeriksa rute serta slot jika pengiriman dipilih. Selanjutnya, pembeli meninjau total biaya sebelum membayar. Jika kondisi saat serah terima berbeda, tim dukungan membandingkan barang dengan keterangan yang disimpan pada pesanan.",
+            "Tangkapan layar memperlihatkan katalog dan alat pemeriksaan yang bisa dicoba pada prototipe. Alur pembayaran, pengiriman, dan dukungan menggambarkan layanan yang akan dijalankan saat peluncuran. Karena itu, tahapan serah terima pada gambar alur perlu dibaca bersama pembagian tugas di Bab 3."
+          ],
+          "exhibits": [
+            "PRODUCT_JOURNEY",
+            "ORDER_DETAIL_CAPTURE"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "title": "",
+      "sections": [
+        {
+          "heading": "2.4 Pembuktian konsep",
+          "paragraphs": [
+            "Tim menjalankan rekonstruksi pada komputer lokal. FFmpeg mengekstrak bingkai dari video, COLMAP mendaftarkan pandangan dan memperkirakan posisi kamera, lalu Brush membangun representasi Gaussian splat. Selanjutnya, splat-transform mengemas hasil ke format SPZ untuk penampil. Uji tersebut menghasilkan tujuh berkas dari tujuh rekaman satu kursi, dengan waktu proses 244 sampai 333 detik pada laptop ber-GPU RTX 4060.",
+            "Namun, hasil uji masih memperlihatkan kabut atau fragmen. Karena itu, tim mengutamakan foto asli untuk pemeriksaan kondisi dan memakai dimensi yang diukur penjual. Deteksi sudut yang belum terekam dan penyaringan mutu otomatis menjadi pengembangan berikutnya. Lampiran C memperlihatkan rekaman masukan dan keluaran dari proses yang sama.",
+            "Selain itu, tim meminta 60 responden menilai contoh iklan sebelum dan setelah melihat catatan kondisi serta foto dekat. Sebanyak 34 merasa lebih yakin, 16 tetap, dan 10 kurang yakin menilai kondisi. Namun, beberapa rincian berubah sekaligus dan semua responden melihatnya dalam urutan yang sama. Hasil itu memberi alasan menguji penyajian kondisi pada pencarian nyata. Survei ini mengukur penilaian diri dan rencana tindakan, sementara penjualan perlu diamati dalam transaksi terpisah."
+          ],
+          "exhibits": [
+            "LOCAL_SPZ_PROOF"
+          ]
+        },
+        {
+          "heading": "2.5 Mekanisme pendapatan",
+          "paragraphs": [
+            "Penjual memasang iklan standar secara gratis dan melihat perkiraan hasil bersih sebelum menyepakati pesanan. Sementara itu, pembeli mengetahui rincian biaya sebelum membayar. Bab 5 menunjukkan hubungan antara harga barang, biaya layanan, komisi, ongkos pengiriman, dan pendapatan yang diakui dari satu pesanan. Setelah pemrosesan media dan dukungan stabil, pedagang juga dapat berlangganan penampil katalog tiga dimensi."
+          ],
+          "exhibits": []
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "title": "BAB 3 Strategi operasi",
+      "sections": [
+        {
+          "heading": "3.1 Alur kerja dan rantai nilai",
+          "paragraphs": [
+            "Penjual menyiapkan foto, ukuran, dan catatan kondisi. Tim katalog memeriksa bukti itu sebelum iklan terbit. Selanjutnya, pembeli memilih cara menerima barang dan penjual mengonfirmasi stok serta jadwal. Selain itu, tim pesanan memeriksa rute dan slot jika pembeli memilih pengiriman.",
+            "Jika pembeli melaporkan selisih kondisi, tim pesanan memeriksa bukti pada pesanan dan mencatat penyelesaian sebelum pelepasan dana. Sementara itu, gangguan stok atau pengiriman ditangani sebelum pembeli membayar. Titik serah kerja dan jalur pengecualian dirinci di Lampiran F."
+          ],
+          "exhibits": [
+            "OPERATIONS_SWIMLANE"
+          ]
+        },
+        {
+          "heading": "3.2 Pasokan dan sumber daya",
+          "paragraphs": [
+            "Tim akuisisi membantu pedagang furnitur sekitar UI Depok menerbitkan penawaran pertama dan menyepakati cara memperbarui stok. Selain itu, penghuni yang akan pindah menambah pasokan pada masa pergantian kos. Karena barang tetap berada pada penjual sampai serah terima, pembukaan klaster bergantung pada ketersediaan stok serta kemampuan tim memeriksa iklan dan memenuhi pesanan."
+          ],
+          "exhibits": [
+            "SUPPLY_ROLES"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "title": "",
+      "sections": [
+        {
+          "heading": "3.3 Kendali mutu dan kapasitas",
+          "paragraphs": [
+            "Tim katalog memeriksa foto asli, satuan dimensi, dan keterangan kondisi sebelum iklan terbit. Jika bukti kurang, tim meminta perbaikan pada bagian yang spesifik. Sementara itu, antrean rekonstruksi dikelola terpisah agar iklan yang sudah lengkap tetap dapat terbit menggunakan foto.",
+            "Kapasitas katalog mengikuti jam kerja efektif dan waktu yang dibutuhkan untuk menangani pemeriksaan serta perbaikan. Kapasitas serah terima mengikuti stok yang bisa dipastikan, dukungan pesanan, serta slot pengiriman sesuai cara penerimaan yang dipilih pembeli. Karena itu, volume proyeksi memakai batas terendah di antara permintaan yang dapat dijangkau, pasokan layak jual, dan kapasitas menyelesaikan pesanan."
+          ],
+          "exhibits": []
+        },
+        {
+          "heading": "3.4 Peta jalan pelaksanaan",
+          "paragraphs": [
+            "Enam bulan pertama digunakan untuk membangun katalog di sekitar UI Depok dan menguji apakah tim dapat menuntaskan pesanan. Selanjutnya, bulan ketujuh sampai kedua belas membuka klaster berdekatan jika stok, dukungan, dan jadwal penerimaan memadai. Sejak tahun kedua, Bursa Pindahan dijalankan saat klaster berikut memiliki persediaan yang dikonfirmasi dan petugas yang siap mendampingi pemesanan.",
+            "Kesiapan diukur sebelum tim menambah wilayah, belanja kampanye, atau pekerjaan pemrosesan media. Sementara itu, pendanaan dipetakan menurut kebutuhan kas dan hasil yang harus dicapai setiap tahap. Tahapan modal pendiri atau dana nondilutif, prabenih, dan benih di Bab 5 menunjukkan kebutuhan indikatif serta prasyaratnya."
+          ],
+          "exhibits": [
+            "ROADMAP"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "title": "",
+      "sections": [
+        {
+          "heading": "3.5 Ukuran kinerja operasi",
+          "paragraphs": [
+            "Tim menggunakan pesanan selesai sebagai ukuran utama. Selain itu, tim katalog memeriksa kelengkapan bukti dan waktu publikasi, sedangkan tim pesanan memantau keluhan kondisi. Sementara itu, tim akuisisi mengukur penjual yang kembali menerbitkan iklan. Gambar 6 menetapkan penyebut, sasaran awal, dan pemilik tindakan. Sasaran tersebut akan diuji dengan data Depok dan menjadi dasar untuk menyesuaikan panduan atau kapasitas."
+          ],
+          "exhibits": [
+            "KPI"
+          ]
+        },
+        {
+          "heading": "3.6 Risiko dan penanganan",
+          "paragraphs": [
+            "Tim menilai kemungkinan dan dampak sebagai taksiran awal. Namun, penanganan mengikuti kejadian yang teramati, seperti stok yang tidak tersedia, model yang kehilangan bagian penting, atau keluhan kondisi yang berulang. Setiap risiko memiliki penanggung jawab dan tindakan awal. Tim meninjau letaknya pada peta setelah memperoleh data pesanan."
+          ],
+          "exhibits": [
+            "RISK_HEATMAP_REGISTER"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CSIL2025",
+      "apa": "Centre for Industrial Studies. (2025, 4 Februari). An intense year for the furniture industry.",
+      "url": "https://www.csilmilano.com/global-furniture-industry/",
+      "locator": "Global Furniture Production and Trade Outlook. Estimated worldwide production in 2024 USD 471 bn, not secondhand market volume."
+    },
+    {
+      "id": "FARACA2024",
+      "apa": "Faraca, G., Ranea Palma, A., Spiliotopoulos, C., Rodríguez Manotas, J., Sanyé Mengual, E., Amadei, A. M., Maury, T., Pasqualino, R., Wierzgala, P., Perez Camacho, M. N., Alfieri, F., Bernad Beltran, D., Lag Brotons, A., Delre, A., Perez Arribas, Z., Arciszewska, A., La Placa, M. G., Ardente, F., Mathieux, F., & Wolf, O. (2024). Ecodesign for sustainable products regulation: Study on new product priorities. Publications Office of the European Union.",
+      "url": "https://doi.org/10.2760/7400680",
+      "locator": "Page 201: cited EU estimate of 10 million tonnes of furniture waste annually."
+    },
+    {
+      "id": "KLH",
+      "apa": "Kementerian Lingkungan Hidup dan Badan Pengendalian Lingkungan Hidup. (t.t.). Ekonomi sirkular.",
+      "url": "https://kemenlh.go.id/contents/18/Ekonomi-Sirkular",
+      "locator": "Prinsip Ekonomi Sirkular, butir 2."
+    },
+    {
+      "id": "PRATAMA2021",
+      "apa": "Pratama, B. A., Proboyekti, U., & Wijana, K. (2021). Penerapan metode user centered design (UCD) dalam pembangunan layanan online jual beli barang bekas. Jurnal Terapan Teknologi Informasi, 4(1), 33–43.",
+      "url": "https://jutei.ukdw.ac.id/index.php/jurnal/article/view/192",
+      "locator": "Published 13 July 2021. Abstract explains kos context in Yogyakarta and tests prototype usability on 22 people, not Depok demand."
+    },
+    {
+      "id": "FATURAHMAN2026",
+      "apa": "Faturahman, G. (2026, 14 September). Surga barang bekas! Mall Rongsok Depok penuh benda jadul. detikFinance.",
+      "url": "https://finance.detik.com/foto-bisnis/d-8661808/surga-barang-bekas-mall-rongsok-depok-penuh-benda-jadul",
+      "locator": "Caption series shows a local resale example, not a partner claim or market share."
+    },
+    {
+      "id": "SURVEY2026",
+      "apa": "Survei tim penulis. (2026, 26 November). Cara memilih furnitur bekas secara online [Data survei, versi 3, 60 respons]. Lampiran B.",
+      "url": "",
+      "locator": "Fresh attachment CSV 60 responses, uses columns in file order."
+    }
+  ],
+  "notes": {
+    "placement": "Titles are counted-body slots, not final physical page numbers. For continuous chapter flow the renderer may move an entire section with exhibit; no chapter-only page break needed. Keep Gambar survey geometry in page 3 beside 1.3. If ORDER_DETAIL_CAPTURE makes p6 crowded, move it to §2.5 or Appendix C with caption explaining example values. SUPPLY_ROLES may use the lane legend/role strip rather than duplicate diagrams.",
+    "finance_tokens": "QA-resolve all five tokens from workbook results before final. If IRR is invalid, change sentence structure to transparently report its status and keep actual computed NPV. FY2029 marketplace revenue excludes B2B. Funding number is indication from workbook, no implied secured capital.",
+    "claims": "No case names, funded partners, settlements or GA claims. Use only local SPZ measured series. Render each exhibit at readable size. Add a numerical target only as a labelled modelling or pilot target aligned with workbook or operations owner."
+  }
+}

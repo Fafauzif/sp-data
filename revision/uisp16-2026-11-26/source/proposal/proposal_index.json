@@ -1,0 +1,645 @@
+{
+  "toc": [
+    [
+      "statement",
+      "Statement of Authorship",
+      1,
+      5
+    ],
+    [
+      "ringkasan",
+      "Ringkasan eksekutif",
+      1,
+      6
+    ],
+    [
+      "bab1",
+      "BAB 1 Pendahuluan",
+      1,
+      7
+    ],
+    [
+      "bagian4",
+      "1.1 Latar belakang masalah",
+      2,
+      7
+    ],
+    [
+      "bagian5",
+      "1.2 Identifikasi masalah utama",
+      2,
+      8
+    ],
+    [
+      "validasi",
+      "1.3 Validasi masalah",
+      2,
+      8
+    ],
+    [
+      "bab2",
+      "BAB 2 Model bisnis",
+      1,
+      9
+    ],
+    [
+      "katalog",
+      "2.1 Deskripsi bisnis LihatDulu",
+      2,
+      9
+    ],
+    [
+      "bagian9",
+      "2.2 Proposisi nilai bagi pembeli dan penjual",
+      2,
+      10
+    ],
+    [
+      "alurproduk",
+      "2.3 Perjalanan penjual dan pembeli",
+      2,
+      11
+    ],
+    [
+      "buktiteknis",
+      "2.4 Pembuktian konsep",
+      2,
+      12
+    ],
+    [
+      "bagian12",
+      "2.5 Mekanisme pendapatan",
+      2,
+      12
+    ],
+    [
+      "bab3",
+      "BAB 3 Strategi operasi",
+      1,
+      13
+    ],
+    [
+      "alurkerja",
+      "3.1 Alur kerja dan rantai nilai",
+      2,
+      13
+    ],
+    [
+      "bagian15",
+      "3.2 Pasokan dan sumber daya",
+      2,
+      13
+    ],
+    [
+      "bagian16",
+      "3.3 Kendali mutu dan kapasitas",
+      2,
+      14
+    ],
+    [
+      "bagian17",
+      "3.4 Peta jalan pelaksanaan",
+      2,
+      14
+    ],
+    [
+      "bagian18",
+      "3.5 Ukuran kinerja operasi",
+      2,
+      15
+    ],
+    [
+      "bagian19",
+      "3.6 Risiko dan penanganan",
+      2,
+      15
+    ],
+    [
+      "bab4",
+      "BAB 4 Strategi pemasaran",
+      1,
+      16
+    ],
+    [
+      "bagian21",
+      "4.1 Segmen awal dan posisi pasar",
+      2,
+      16
+    ],
+    [
+      "pasar",
+      "4.2 Ukuran pasar berdasarkan pendapatan",
+      2,
+      17
+    ],
+    [
+      "bagian23",
+      "4.3 Persaingan pada tingkat keputusan pembeli",
+      2,
+      18
+    ],
+    [
+      "bagian24",
+      "4.4 Penawaran, harga, dan distribusi",
+      2,
+      19
+    ],
+    [
+      "bagian25",
+      "4.5 Fase 1 Kurasi katalog dan rekrutmen lokal",
+      2,
+      20
+    ],
+    [
+      "bagian26",
+      "4.6 Fase 2 Konten Muat Nggak",
+      2,
+      21
+    ],
+    [
+      "bagian27",
+      "4.7 Fase 3 Bursa Pindahan",
+      2,
+      22
+    ],
+    [
+      "bagian28",
+      "4.8 Dari jangkauan hingga pemakaian kembali",
+      2,
+      23
+    ],
+    [
+      "bab5",
+      "BAB 5 Strategi keuangan",
+      1,
+      24
+    ],
+    [
+      "bagian30",
+      "5.1 Dasar proyeksi dan penggerak volume",
+      2,
+      24
+    ],
+    [
+      "bagian31",
+      "5.2 Ekonomi satu pesanan dan titik impas",
+      2,
+      25
+    ],
+    [
+      "bagian32",
+      "5.3 Pendapatan, laba dan arus kas",
+      2,
+      26
+    ],
+    [
+      "bagian33",
+      "5.4 Kebutuhan dana serta syarat pencairan",
+      2,
+      27
+    ],
+    [
+      "kelayakan",
+      "5.5 Biaya ekuitas dan kelayakan proyek",
+      2,
+      28
+    ],
+    [
+      "risikomodel",
+      "5.6 Skenario dan risiko pendanaan",
+      2,
+      29
+    ],
+    [
+      "bagian36",
+      "5.7 Keputusan peluncuran dan kriteria perluasan",
+      2,
+      30
+    ],
+    [
+      "referensi",
+      "Daftar pustaka",
+      1,
+      31
+    ],
+    [
+      "lampirana",
+      "Lampiran A Model bisnis",
+      1,
+      32
+    ],
+    [
+      "lampiranb",
+      "Lampiran B Survei dan persona",
+      1,
+      33
+    ],
+    [
+      "bagian40",
+      "B.1 Respons terhadap bukti kondisi",
+      2,
+      34
+    ],
+    [
+      "bagian41",
+      "B.2 Persona kerja dan wawancara penjual",
+      2,
+      35
+    ],
+    [
+      "lampiranc",
+      "Lampiran C Prototipe dan uji pemrosesan lokal",
+      1,
+      36
+    ],
+    [
+      "bagian43",
+      "C.1 Tujuh proses pada satu kursi",
+      2,
+      37
+    ],
+    [
+      "lampirand",
+      "Lampiran D Pasar dan pesaing",
+      1,
+      38
+    ],
+    [
+      "lampirane",
+      "Lampiran E Model dan rekonsiliasi",
+      1,
+      39
+    ],
+    [
+      "bagian46",
+      "E.1 Risiko skenario, likuiditas dan pembiayaan",
+      2,
+      40
+    ],
+    [
+      "lampiranf",
+      "Lampiran F Kendali mutu dan pemenuhan",
+      1,
+      41
+    ],
+    [
+      "lampirang",
+      "Lampiran G Kalender pemasaran dan instrumen atribusi",
+      1,
+      42
+    ]
+  ],
+  "figlist": [
+    [
+      "gambar1",
+      "Gambar 1. Kendala ketika mempertimbangkan iklan tertentu",
+      1,
+      8
+    ],
+    [
+      "gambar2",
+      "Gambar 2. Dua sisi pengalaman katalog pada prototipe",
+      1,
+      9
+    ],
+    [
+      "gambar3",
+      "Gambar 3. Proposisi nilai bagi pembeli dan penjual",
+      1,
+      10
+    ],
+    [
+      "gambar4",
+      "Gambar 4. Bingkai masukan dan keluaran SPZ dari uji lokal",
+      1,
+      12
+    ],
+    [
+      "gambar5",
+      "Gambar 5. Peta jalan dan kesiapan tiap fase",
+      1,
+      14
+    ],
+    [
+      "gambar6",
+      "Gambar 6. Indikator pilot dan dasar pengukuran",
+      1,
+      15
+    ],
+    [
+      "gambar7",
+      "Gambar 7. Peta risiko dan pemilik respons",
+      1,
+      15
+    ],
+    [
+      "gambar8",
+      "Gambar 8. Target awal dalam wilayah layanan",
+      1,
+      16
+    ],
+    [
+      "gambar9",
+      "Gambar 9. TAM, SAM, dan SOM sebagai pendapatan marketplace",
+      1,
+      17
+    ],
+    [
+      "gambar10",
+      "Gambar 10. Perbandingan alternatif pencarian dan pemeriksaan",
+      1,
+      18
+    ],
+    [
+      "gambar11",
+      "Gambar 11. Bauran pemasaran untuk peluncuran di sekitar kampus",
+      1,
+      19
+    ],
+    [
+      "gambar12",
+      "Gambar 12. Konsep material kurasi dan meja bantuan",
+      1,
+      20
+    ],
+    [
+      "gambar13",
+      "Gambar 13. Mockup konsep konten Muat Nggak",
+      1,
+      21
+    ],
+    [
+      "gambar14",
+      "Gambar 14. Mockup konsep Bursa Pindahan di area kampus",
+      1,
+      22
+    ],
+    [
+      "gambar15",
+      "Gambar 15. Perjalanan pemasaran dan peristiwa yang diukur",
+      1,
+      23
+    ],
+    [
+      "gambar16",
+      "Gambar 16. Pesanan selesai pada tiga skenario",
+      1,
+      24
+    ],
+    [
+      "gambar17",
+      "Gambar 17. Lintasan arus kas proyek menurut skenario",
+      1,
+      26
+    ],
+    [
+      "gambar18",
+      "Gambar 18. Kelayakan proyek dalam skenario dasar",
+      1,
+      28
+    ],
+    [
+      "gambar19",
+      "Gambar 19. Distribusi hasil proyeksi pada horizon 2036",
+      1,
+      29
+    ],
+    [
+      "gambar20",
+      "Gambar 20. Kanvas model bisnis LihatDulu",
+      1,
+      32
+    ],
+    [
+      "gambar21",
+      "Gambar 21. Tindakan setelah mempertimbangkan iklan",
+      1,
+      33
+    ],
+    [
+      "gambar22",
+      "Gambar 22. Perubahan keyakinan dari awal ke tahap catatan kondisi",
+      1,
+      34
+    ],
+    [
+      "gambar23",
+      "Gambar 23. Persona kerja pembeli kos",
+      1,
+      35
+    ],
+    [
+      "gambar24",
+      "Gambar 24. Hipotesis persona pemasok lokal",
+      1,
+      35
+    ],
+    [
+      "gambar25",
+      "Gambar 25. Masukan video dan penampil keluaran dari proses yang sama",
+      1,
+      36
+    ],
+    [
+      "gambar26",
+      "Gambar 26. Implikasi SWOT untuk eksperimen pasar",
+      1,
+      38
+    ]
+  ],
+  "tblist": [
+    [
+      "tabel1",
+      "Tabel 1. Hasil yang mengarahkan keputusan",
+      1,
+      6
+    ],
+    [
+      "tabel2",
+      "Tabel 2. Pemeriksaan sebelum mengatur serah terima",
+      1,
+      9
+    ],
+    [
+      "tabel3",
+      "Tabel 3. Urutan konfirmasi pesanan",
+      1,
+      11
+    ],
+    [
+      "tabel4",
+      "Tabel 4. Alur kerja dua lajur dan jalur pengecualian",
+      1,
+      13
+    ],
+    [
+      "tabel5",
+      "Tabel 5. Tanda kesiapan tiap segmen",
+      1,
+      16
+    ],
+    [
+      "tabel6",
+      "Tabel 6. Jembatan perhitungan pasar",
+      1,
+      17
+    ],
+    [
+      "tabel7",
+      "Tabel 7. Implikasi pembandingan",
+      1,
+      18
+    ],
+    [
+      "tabel8",
+      "Tabel 8. Uji harga dan distribusi pada pilot",
+      1,
+      19
+    ],
+    [
+      "tabel9",
+      "Tabel 9. Pelaksanaan awal",
+      1,
+      20
+    ],
+    [
+      "tabel10",
+      "Tabel 10. Naskah kampanye dan pelacakan",
+      1,
+      21
+    ],
+    [
+      "tabel11",
+      "Tabel 11. Tiga titik keputusan di lokasi",
+      1,
+      22
+    ],
+    [
+      "tabel12",
+      "Tabel 12. Aturan evaluasi pemasaran",
+      1,
+      23
+    ],
+    [
+      "tabel13",
+      "Tabel 13. Rantai volume sampai pendapatan",
+      1,
+      24
+    ],
+    [
+      "tabel14",
+      "Tabel 14. Contoh pesanan dalam skenario dasar",
+      1,
+      25
+    ],
+    [
+      "tabel15",
+      "Tabel 15. Ekonomi pesanan pada tahun ketiga",
+      1,
+      25
+    ],
+    [
+      "tabel16",
+      "Tabel 16. Ringkasan skenario dasar per periode",
+      1,
+      26
+    ],
+    [
+      "tabel17",
+      "Tabel 17. Jadwal pendanaan indikatif dari model",
+      1,
+      27
+    ],
+    [
+      "tabel18",
+      "Tabel 18. Batas yang menentukan kelanjutan operasi",
+      1,
+      27
+    ],
+    [
+      "tabel19",
+      "Tabel 19. Indikator kelayakan dasar",
+      1,
+      28
+    ],
+    [
+      "tabel20",
+      "Tabel 20. Kisaran hasil dan cara membaca",
+      1,
+      29
+    ],
+    [
+      "tabel21",
+      "Tabel 21. Keputusan yang diuji sebelum fase berikutnya",
+      1,
+      30
+    ],
+    [
+      "tabel22",
+      "Tabel 22. Keterkaitan keputusan di dalam kanvas",
+      1,
+      32
+    ],
+    [
+      "tabel23",
+      "Tabel 23. Hasil akhir pada penawaran historis",
+      1,
+      33
+    ],
+    [
+      "tabel24",
+      "Tabel 24. Rencana tindakan dalam contoh iklan",
+      1,
+      34
+    ],
+    [
+      "tabel25",
+      "Tabel 25. Rekaman dan hasil pemrosesan lokal",
+      1,
+      37
+    ],
+    [
+      "tabel26",
+      "Tabel 26. Input skenario ukuran pasar",
+      1,
+      38
+    ],
+    [
+      "tabel27",
+      "Tabel 27. Peta bagian workbook yang mendasari proposal",
+      1,
+      39
+    ],
+    [
+      "tabel28",
+      "Tabel 28. Komponen CAPM dalam model",
+      1,
+      39
+    ],
+    [
+      "tabel29",
+      "Tabel 29. Pemeriksaan yang harus dibaca sebelum menyimpulkan kelayakan",
+      1,
+      40
+    ],
+    [
+      "tabel30",
+      "Tabel 30. Pemeriksaan operasi sebelum pesanan selesai",
+      1,
+      41
+    ],
+    [
+      "tabel31",
+      "Tabel 31. Peta kegiatan dan batas eksternal",
+      1,
+      42
+    ],
+    [
+      "tabel32",
+      "Tabel 32. Rekam jejak kampanye ke transaksi",
+      1,
+      42
+    ]
+  ],
+  "missing_metrics": []
+}

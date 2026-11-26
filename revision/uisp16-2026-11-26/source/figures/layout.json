@@ -1,0 +1,156 @@
+[
+  {
+    "id": "bmc",
+    "title": "Model bisnis LihatDulu",
+    "source": "111",
+    "clip": [
+      72,
+      125,
+      722,
+      506
+    ]
+  },
+  {
+    "id": "vpc",
+    "title": "Kecocokan penawaran dengan kebutuhan pengguna",
+    "source": "110",
+    "clip": [
+      72,
+      125,
+      722,
+      525
+    ]
+  },
+  {
+    "id": "market",
+    "title": "Ukuran pasar berbasis pendapatan platform",
+    "source": "91",
+    "clip": [
+      72,
+      125,
+      722,
+      478
+    ]
+  },
+  {
+    "id": "stp",
+    "title": "Segmen prioritas di sekitar UI Depok",
+    "source": "96",
+    "clip": [
+      72,
+      125,
+      722,
+      451
+    ]
+  },
+  {
+    "id": "persona-pembeli",
+    "title": "Profil pembeli pertama",
+    "source": "97",
+    "clip": [
+      72,
+      125,
+      722,
+      366
+    ]
+  },
+  {
+    "id": "persona-penjual",
+    "title": "Profil pemasok awal",
+    "source": "98",
+    "clip": [
+      72,
+      125,
+      722,
+      394
+    ]
+  },
+  {
+    "id": "aida",
+    "title": "Tindakan pemasaran sampai pesanan selesai",
+    "source": "99–100",
+    "clip": [
+      72,
+      125,
+      722,
+      365
+    ]
+  },
+  {
+    "id": "kpi",
+    "title": "Indikator untuk mengendalikan operasi awal",
+    "source": "103",
+    "clip": [
+      72,
+      125,
+      722,
+      433
+    ]
+  },
+  {
+    "id": "pesaing",
+    "title": "Alternatif pembeli sebelum menyepakati barang",
+    "source": "89–90",
+    "clip": [
+      72,
+      125,
+      722,
+      442
+    ]
+  },
+  {
+    "id": "marketing-mix",
+    "title": "Bauran pemasaran klaster UI Depok",
+    "source": "101",
+    "clip": [
+      72,
+      125,
+      722,
+      381
+    ]
+  },
+  {
+    "id": "risiko",
+    "title": "Prioritas risiko dan respons operasi",
+    "source": "3 dan 6",
+    "clip": [
+      72,
+      125,
+      722,
+      442
+    ]
+  },
+  {
+    "id": "roadmap",
+    "title": "Tahap peluncuran dan syarat perluasan",
+    "source": "9",
+    "clip": [
+      72,
+      125,
+      722,
+      376
+    ]
+  },
+  {
+    "id": "keuangan",
+    "title": "Kelayakan keuangan skenario dasar",
+    "source": "20",
+    "clip": [
+      72,
+      125,
+      722,
+      312
+    ]
+  },
+  {
+    "id": "swot",
+    "title": "Prioritas tindak lanjut dari SWOT",
+    "source": "87",
+    "clip": [
+      72,
+      125,
+      722,
+      473
+    ]
+  }
+]

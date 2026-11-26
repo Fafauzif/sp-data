@@ -1,0 +1,34 @@
+{
+  "pages": 42,
+  "body_pages": 25,
+  "body_range": [
+    6,
+    30
+  ],
+  "outline_count": 51,
+  "resolved_entries": 106,
+  "invalid_links": [],
+  "front_lists": {
+    "toc": {
+      "expected": 15,
+      "actual": 15,
+      "missing_rows": [],
+      "extra_rows": [],
+      "destination_counts_match": true
+    },
+    "figlist": {
+      "expected": 26,
+      "actual": 26,
+      "missing_rows": [],
+      "extra_rows": [],
+      "destination_counts_match": true
+    },
+    "tblist": {
+      "expected": 32,
+      "actual": 32,
+      "missing_rows": [],
+      "extra_rows": [],
+      "destination_counts_match": true
+    }
+  }
+}

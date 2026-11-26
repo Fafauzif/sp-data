@@ -1,0 +1,101 @@
+{
+  "title": "Uji pemrosesan lokal pada tujuh rekaman satu kursi",
+  "technical_source_commit": "c4b3192",
+  "artifact_commit": "cbf69f09fbb41eacaa8ea40e6e6cb55ceec61e4c",
+  "technical_source": "docs/handoff/scan-toolchain.md",
+  "artifact_manifest": "docs/handoff/scan-evidence-manifest.json",
+  "recording_date_wib": "2026-11-21",
+  "processing_date_wib": "2026-11-22",
+  "hardware": "Acer Predator Helios Neo 16, Windows 11, RTX 4060 Laptop",
+  "pipeline": [
+    "FFmpeg 8.1.2",
+    "COLMAP 4.2.1 (CUDA)",
+    "Brush 0.3.0",
+    "splat-transform 3.12.0",
+    "SPZ"
+  ],
+  "tables": [
+    {
+      "id": "27976",
+      "seconds_clip": 25.35,
+      "frames_registered": 76,
+      "frames_extracted": 76,
+      "seconds_processing": 291.281,
+      "spz_bytes": 544854,
+      "spz_mib": 0.52,
+      "note": ""
+    },
+    {
+      "id": "49140",
+      "seconds_clip": 20.13,
+      "frames_registered": 60,
+      "frames_extracted": 60,
+      "seconds_processing": 289.718,
+      "spz_bytes": 495405,
+      "spz_mib": 0.47,
+      "note": ""
+    },
+    {
+      "id": "12135",
+      "seconds_clip": 10.03,
+      "frames_registered": 60,
+      "frames_extracted": 60,
+      "seconds_processing": 332.873,
+      "spz_bytes": 708640,
+      "spz_mib": 0.68,
+      "note": ""
+    },
+    {
+      "id": "20272",
+      "seconds_clip": 10.21,
+      "frames_registered": 60,
+      "frames_extracted": 60,
+      "seconds_processing": 244.142,
+      "spz_bytes": 523603,
+      "spz_mib": 0.5,
+      "note": ""
+    },
+    {
+      "id": "53628",
+      "seconds_clip": 14.59,
+      "frames_registered": 72,
+      "frames_extracted": 72,
+      "seconds_processing": 259.377,
+      "spz_bytes": 538833,
+      "spz_mib": 0.51,
+      "note": ""
+    },
+    {
+      "id": "26753",
+      "seconds_clip": 15.0,
+      "frames_registered": 74,
+      "frames_extracted": 74,
+      "seconds_processing": 269.539,
+      "spz_bytes": 651694,
+      "spz_mib": 0.62,
+      "note": "Ekstraksi ulang pada 5 fps setelah lintasan pertama menghasilkan 59 bingkai."
+    },
+    {
+      "id": "14115",
+      "seconds_clip": 14.62,
+      "frames_registered": 71,
+      "frames_extracted": 71,
+      "seconds_processing": 245.222,
+      "spz_bytes": 353915,
+      "spz_mib": 0.34,
+      "note": "Sumber 4K, bingkai diperkecil menjadi 1.280 piksel di sisi terpanjang."
+    }
+  ],
+  "paired_golden_assets": [
+    "spz-bingkai-golden.jpg",
+    "spz-penampil-golden.png"
+  ],
+  "golden_job_id": "0283ca80-8f9c-4fa4-85a6-f0edb5fc962c",
+  "limitations": [
+    "Tujuh rekaman berasal dari satu objek fisik.",
+    "Registrasi bingkai mengukur keterbacaan posisi kamera. Mutu bentuk diperiksa dari artefak visual.",
+    "Keluaran dapat dibuka dan masih memperlihatkan kabut atau fragmen.",
+    "Durasi berasal dari pemroses lokal pada perangkat yang tercatat.",
+    "Bukti belum mencakup uji pemindaian dari kamera ponsel langsung ke penampil di lokasi pilot."
+  ]
+}

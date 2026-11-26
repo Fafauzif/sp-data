@@ -1,0 +1,125 @@
+{
+  "workbook": "/tmp/ldfin/model-compact-fixed.xlsx",
+  "sheets": {
+    "Ringkasan": {
+      "cells": 410,
+      "formulas": 34,
+      "visibility": "visible"
+    },
+    "Laporan": {
+      "frozen_panes": 1,
+      "cells": 1014,
+      "formulas": 660,
+      "string_or_empty_result": 65,
+      "visibility": "visible"
+    },
+    "Operasi Bulanan": {
+      "frozen_panes": 1,
+      "cells": 13335,
+      "formulas": 11858,
+      "visibility": "visible"
+    },
+    "Pendanaan": {
+      "cells": 369,
+      "formulas": 41,
+      "visibility": "visible"
+    },
+    "CAPM": {
+      "cells": 155,
+      "formulas": 16,
+      "visibility": "visible"
+    },
+    "Ukuran Pasar": {
+      "cells": 100,
+      "formulas": 13,
+      "visibility": "visible"
+    },
+    "Asumsi": {
+      "frozen_panes": 1,
+      "cells": 1006,
+      "formulas": 106,
+      "visibility": "visible"
+    },
+    "Kasus": {
+      "cells": 250,
+      "visibility": "visible"
+    },
+    "Bukti Harga": {
+      "cells": 210,
+      "visibility": "visible"
+    },
+    "Rujukan": {
+      "cells": 140,
+      "visibility": "visible"
+    },
+    "QA Model": {
+      "cells": 100,
+      "formulas": 22,
+      "visibility": "visible"
+    },
+    "Metode": {
+      "cells": 228,
+      "visibility": "visible"
+    },
+    "Sensitivity": {
+      "cells": 231,
+      "formulas": 1,
+      "visibility": "visible"
+    },
+    "Monte Carlo": {
+      "frozen_panes": 1,
+      "cells": 60678,
+      "visibility": "visible"
+    }
+  },
+  "selected_cells": {
+    "Ringkasan!C11": {
+      "formula": "CAPM!B22",
+      "cached_value": 0.13968190238168043,
+      "type": "n"
+    },
+    "Ringkasan!C12": {
+      "formula": "'Laporan'!M60",
+      "cached_value": -2512.212365880056,
+      "type": "n"
+    },
+    "Ringkasan!C13": {
+      "formula": "IF(ISNUMBER('Laporan'!M63),'Laporan'!M63,\"Tidak terdefinisi\")",
+      "cached_value": "Tidak terdefinisi",
+      "type": "str"
+    },
+    "Ringkasan!C18": {
+      "formula": "Pendanaan!B20",
+      "cached_value": 2818.5567981554814,
+      "type": "n"
+    },
+    "Laporan!F14": {
+      "formula": "SUMIF('Operasi Bulanan'!$B$7:$B$127,F$6,'Operasi Bulanan'!$AV$7:$AV$127)",
+      "cached_value": 231.4530748904916,
+      "type": "n"
+    },
+    "Ukuran Pasar!B13": {
+      "formula": "B11/B12*'Asumsi'!$F$29+B11*'Asumsi'!$F$30",
+      "cached_value": 32032.534505625088,
+      "type": "n"
+    },
+    "Ukuran Pasar!B15": {
+      "formula": "B13*B14",
+      "cached_value": 3363.4161230906343,
+      "type": "n"
+    },
+    "Ukuran Pasar!B16": {
+      "formula": "'Laporan'!F14",
+      "cached_value": 231.4530748904916,
+      "type": "n"
+    }
+  },
+  "formula_errors": [],
+  "external_workbook_parts": [],
+  "native_chart_count": 2,
+  "calculation_properties": {},
+  "missing_sheets": [],
+  "missing_selected_cells": [],
+  "uncached_formula_count": 0,
+  "cached_formula_error_count": 0
+}

@@ -1,0 +1,74 @@
+{
+  "technical_title": "Bukti prototipe dan uji pemrosesan lokal",
+  "technical_paragraphs": [
+    "Cuplikan antarmuka memperlihatkan panduan foto untuk penjual, penanda kondisi, dan simulasi penempatan untuk pembeli. Ketiganya memakai lemari contoh yang telah disiapkan. Pratinjau ruang memakai dimensi yang dicatat pada penawaran. Pembeli tetap perlu mengukur ruang dan jalur masuk sebelum mengatur pengangkutan.",
+    "Dalam uji laboratorium, FFmpeg mengekstrak bingkai dari video ponsel. COLMAP mencocokkan gambar dan memilih submodel dengan jumlah bingkai terdaftar terbanyak. Brush membangun representasi Gaussian splat, lalu splat-transform mengemasnya menjadi SPZ agar dapat dibuka di penampil. Tim menyimpan bingkai sumber, catatan proses, dan aset keluaran untuk menelusuri hasil setiap rekaman.",
+    "Tujuh rekaman dari satu kursi menghasilkan berkas SPZ yang dapat dibuka. Waktu pemrosesan pada laptop dengan RTX 4060 berkisar 244,14 hingga 332,87 detik. Rekaman yang ditampilkan pada gambar mencatat 76 dari 76 bingkai terdaftar, waktu 291,28 detik, dan berkas sebesar 0,52 MiB. Satu rekaman lain memerlukan ekstraksi ulang setelah percobaan pertama menghasilkan 59 bingkai.",
+    "Jumlah bingkai terdaftar menunjukkan bahwa sistem dapat memperkirakan posisi kamera pada rekaman uji. Kabut dan fragmen yang tampak pada keluaran masih menyulitkan pemeriksaan kondisi kursi. Karena itu, rancangan pilot memakai foto asli, ukuran dari penjual, dan catatan kondisi sebagai dasar pemeriksaan. Penayangan model 3D menunggu pemeriksaan bentuk dan cakupan.",
+    "Rangkaian uji ini menggunakan video yang telah direkam dari satu objek. Tahap berikutnya menguji alur dari kamera ponsel langsung ke penampil serta mutu keluaran pada beberapa kategori furnitur. Tim dapat memeriksa hasil yang tersimpan secara langsung melalui penampil mandiri."
+  ],
+  "technical_capture_caption": "Panduan foto penjual, pemeriksaan kondisi, dan pratinjau ruang pada prototipe",
+  "technical_proof_caption": "Bingkai sumber dan berkas SPZ dari rekaman kursi yang sama",
+  "technical_run_table_caption": "Hasil pemrosesan lokal dari tujuh rekaman satu kursi",
+  "technical_links": [
+    {
+      "label": "Catatan teknis dan hasil pemrosesan 22 November 2026",
+      "url": "https://github.com/Fafauzif/Lihatdulu/blob/c4b3192b0cb5d45ef2f46beb6b33c0108c115762/docs/handoff/scan-toolchain.md#real-chair-clips--22-november-2026"
+    },
+    {
+      "label": "Kode pemroses lokal pada versi uji",
+      "url": "https://github.com/Fafauzif/Lihatdulu/blob/c4b3192b0cb5d45ef2f46beb6b33c0108c115762/server/scan-pipeline.mjs"
+    },
+    {
+      "label": "Manifest bingkai, catatan proses, dan aset keluaran",
+      "url": "https://github.com/Fafauzif/Lihatdulu/blob/cbf69f09fbb41eacaa8ea40e6e6cb55ceec61e4c/docs/handoff/scan-evidence-manifest.json"
+    },
+    {
+      "label": "Berkas penampil mandiri untuk diunduh dan dibuka secara lokal",
+      "url": "https://github.com/Fafauzif/Lihatdulu/blob/cbf69f09fbb41eacaa8ea40e6e6cb55ceec61e4c/var/spike/kursi-3d.html"
+    }
+  ],
+  "technical_run_table_data": "bukti-pemrosesan-lokal.json",
+  "operations_title": "Pemeriksaan stok, penanganan pesanan, dan serah terima",
+  "operations_intro": "Dalam rancangan pilot, tim menguji rangkaian ini pada pesanan di klaster UI Depok. Catatan waktu dan peristiwa membantu membedakan barang yang sudah habis, jadwal yang belum cocok, dan masalah yang muncul setelah barang diterima. Tim menentukan ambang perluasan berdasarkan hasil pilot.",
+  "operations_table_caption": "Pemeriksaan operasi sebelum pesanan selesai",
+  "operations_table_columns": [
+    "Pemeriksaan",
+    "Penanggung jawab dan bukti yang dicatat",
+    "Ukuran pilot yang diusulkan",
+    "Tindakan bila belum terpenuhi"
+  ],
+  "operations_table_rows": [
+    [
+      "Stok unit",
+      "Penjual mengonfirmasi barang masih tersedia. Tim pesanan mencatat waktu konfirmasi dan versi penawaran.",
+      "Pesanan dengan stok terkonfirmasi dibagi pesanan yang diajukan untuk pemeriksaan stok.",
+      "Tahan konfirmasi pesanan. Jika unit sudah terjual, perbarui status penawaran."
+    ],
+    [
+      "Jadwal pengambilan",
+      "Pembeli dan penjual menyepakati waktu serta titik pengambilan. Tim pesanan mencatat jadwal yang disetujui.",
+      "Serah terima sesuai jadwal dibagi pengambilan dengan jadwal terkonfirmasi.",
+      "Tawarkan jadwal lain dan catat alasan perubahan."
+    ],
+    [
+      "Pengiriman pihak ketiga",
+      "Tim pesanan memeriksa rute, slot, dan biaya. Pembeli menyetujui total sebelum membayar.",
+      "Pilihan pengiriman dengan rute dan slot terkonfirmasi dibagi permintaan pengiriman.",
+      "Tawarkan pengambilan atau slot lain jika tersedia sebelum meminta konfirmasi pembayaran."
+    ],
+    [
+      "Selisih kondisi",
+      "Tim dukungan membandingkan kondisi saat barang diterima dengan bukti yang tersimpan dan mencatat hasil pemeriksaan.",
+      "Laporan selisih kondisi dibagi serah terima tercatat. Ukur juga waktu dari laporan sampai penyelesaian.",
+      "Tahan penyelesaian dana selama pemeriksaan dan catat keputusan penanganan."
+    ],
+    [
+      "Penutupan pesanan",
+      "Tim pesanan mencatat bukti serah terima, status akhir, serta koreksi dana jika ada.",
+      "Pesanan selesai dibagi pesanan terkonfirmasi pada kohor yang sama.",
+      "Telusuri apakah pesanan tertahan pada stok, jadwal, serah terima, atau penanganan laporan."
+    ]
+  ],
+  "operations_note": "Seluruh ukuran dalam tabel merupakan rancangan pengukuran pilot. Belum tersedia data operasi untuk menetapkan hasil atau target numerik."
+}

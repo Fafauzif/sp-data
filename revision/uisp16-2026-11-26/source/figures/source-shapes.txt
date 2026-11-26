@@ -1,0 +1,840 @@
+SLIDE 111
+0 Freeform 3 custom 108,68,1704,91 
+1 TextBox 4 rect 108,53,1704,106 
+2 Freeform 6 custom 108,179,324,591 
+3 TextBox 7 rect 108,164,324,606 
+4 TextBox 8 rect 665,73,587,70 Business Model Canvas
+5 Freeform 10 custom 108,785,839,233 
+6 TextBox 11 rect 108,769,839,248 
+7 Freeform 13 custom 973,785,839,233 
+8 TextBox 14 rect 973,769,839,248 
+9 Freeform 16 custom 798,179,324,591 
+10 TextBox 17 rect 798,164,324,606 
+11 Freeform 19 custom 1488,179,324,591 
+12 TextBox 20 rect 1488,164,324,606 
+13 Freeform 22 custom 453,179,324,293 
+14 TextBox 23 rect 453,164,324,308 
+15 Freeform 25 custom 453,477,324,293 
+16 TextBox 26 rect 453,461,324,308 
+17 Freeform 28 custom 1143,179,324,293 
+18 TextBox 29 rect 1143,164,324,308 
+19 TextBox 30 rect 189,198,162,27 Key Partnerships
+20 TextBox 31 rect 550,198,130,27 Key Activities
+21 TextBox 32 rect 546,494,138,27 Key Resources
+22 TextBox 33 rect 871,198,178,27 Value Propositions
+23 TextBox 34 rect 1193,198,225,27 Customer Relationships
+24 TextBox 35 rect 1552,198,195,27 Customer Segments
+25 TextBox 36 rect 178,803,140,27 Cost Structure
+26 TextBox 37 rect 1039,803,166,27 Revenue Streams
+27 Freeform 39 custom 1143,477,324,293 
+28 TextBox 40 rect 1143,461,324,308 
+29 TextBox 41 rect 1259,494,87,27 Channels
+SLIDE 110
+0 Freeform 3 custom 108,68,1704,91 
+1 TextBox 4 rect 108,53,1704,106 
+2 Freeform 6 custom 198,265,675,631 
+3 TextBox 7 rect 198,250,675,646 
+4 Freeform 9 custom 1151,265,631,631 
+5 TextBox 10 rect 1210,295,513,542 
+6 AutoShape 11 connector 574,581,898,0 
+7 Freeform 12 custom 488,533,94,94 
+8 Freeform 13 custom 1425,528,84,94 
+9 AutoShape 14 connector 290,267,218,295 
+10 AutoShape 15 connector 293,623,215,272 
+11 AutoShape 16 connector 1469,301,142,246 
+12 AutoShape 17 connector 1474,614,140,242 
+13 Freeform 18 custom 230,294,47,51 
+14 Freeform 19 custom 529,284,35,32 
+15 Freeform 20 custom 612,604,48,38 
+16 Freeform 21 custom 1325,331,43,43 
+17 Freeform 22 custom 1258,602,42,42 
+18 Freeform 23 custom 1580,397,34,34 
+19 TextBox 24 rect 633,73,653,70 Value Proposition Canvas 
+20 TextBox 25 rect 220,349,110,50 Product and Services
+21 TextBox 26 rect 574,286,122,24 Gain Creators
+22 TextBox 27 rect 669,609,122,24 Pain Relievers
+23 TextBox 28 rect 1308,609,49,24 Pains
+24 TextBox 29 rect 1376,339,49,24 Gains
+25 TextBox 30 rect 1614,390,88,46 Customer Job(s)
+SLIDE 91
+0 Freeform 3 custom 164,248,730,730 
+1 TextBox 4 rect 233,282,593,628 
+2 Freeform 6 custom 252,423,555,555 
+3 TextBox 7 rect 304,449,451,477 
+4 Freeform 9 custom 325,568,410,410 
+5 TextBox 10 rect 363,588,333,352 
+6 TextBox 11 rect 353,331,353,49 Rp x TAM
+7 TextBox 12 rect 353,485,353,49 Rp y SAM
+8 TextBox 13 rect 353,638,353,49 Rp z SOM
+9 Freeform 15 custom 108,65,1704,91 
+10 TextBox 16 rect 108,50,1704,106 
+11 AutoShape 17 connector 654,351,351,2 
+12 AutoShape 18 connector 656,507,351,2 
+13 AutoShape 19 connector 656,660,351,2 
+14 Freeform 21 custom 1020,304,736,72 
+15 TextBox 22 rect 1020,289,736,88 
+16 Freeform 24 custom 1020,471,736,72 
+17 TextBox 25 rect 1020,456,736,88 
+18 Freeform 27 custom 1020,620,736,89 
+19 TextBox 28 rect 1020,605,736,105 
+20 TextBox 29 rect 609,88,702,55 TAM SAM SOM Analysis
+21 TextBox 30 rect 1020,328,736,33 How big is the largest possible market?
+22 TextBox 31 rect 1020,495,736,33 What proportion of the market fits you?
+23 TextBox 32 rect 1020,635,736,65 What proportion of the market can you reach?
+SLIDE 96
+0 Freeform 3 custom 109,65,1704,91 
+1 TextBox 4 rect 109,50,1704,106 
+2 Freeform 6 custom 109,196,226,70 
+3 TextBox 7 rect 109,215,226,51 Geographic
+4 Freeform 9 custom 109,275,226,220 
+5 TextBox 10 rect 109,294,226,201 Demographic
+6 Freeform 12 custom 109,504,226,144 
+7 TextBox 13 rect 109,523,226,125 Psychographic
+8 Freeform 15 custom 109,657,226,296 
+9 TextBox 16 rect 109,676,226,277 Behavioral
+10 Freeform 18 custom 345,199,259,67 
+11 TextBox 19 rect 345,218,259,48 Indonesia
+12 Freeform 21 custom 345,275,259,67 
+13 TextBox 22 rect 345,294,259,48 Age
+14 Freeform 24 custom 345,352,259,67 
+15 TextBox 25 rect 345,371,259,48 Occupation
+16 Freeform 27 custom 345,428,259,67 
+17 TextBox 28 rect 345,447,259,48 Income Lvl
+18 Freeform 30 custom 345,504,259,67 
+19 TextBox 31 rect 345,523,259,48 Values
+20 Freeform 33 custom 345,581,259,67 
+21 TextBox 34 rect 345,600,259,48 Lifestyle
+22 Freeform 36 custom 345,657,259,67 
+23 TextBox 37 rect 345,676,259,48 Habit
+24 Freeform 39 custom 345,733,259,67 
+25 TextBox 40 rect 345,752,259,48 Loyalty
+26 Freeform 42 custom 345,810,259,67 
+27 TextBox 43 rect 345,825,259,52 Buying Motivation
+28 Freeform 45 custom 345,886,259,67 
+29 TextBox 46 rect 345,901,259,52 Purchase Frequency
+30 Freeform 48 custom 613,199,193,67 
+31 TextBox 49 rect 613,218,193,48 Tier 1
+32 Freeform 51 custom 814,196,193,67 
+33 TextBox 52 rect 814,215,193,48 Tier 2
+34 Freeform 54 custom 1015,196,193,67 
+35 TextBox 55 rect 1015,215,193,48 Tier 3
+36 Freeform 57 custom 1216,196,193,67 
+37 TextBox 58 rect 1216,215,193,48 Urban
+38 Freeform 60 custom 1416,196,193,67 
+39 TextBox 61 rect 1416,215,193,48 Suburban
+40 Freeform 63 custom 1619,196,193,67 
+41 TextBox 64 rect 1619,215,193,48 Rural
+42 Freeform 66 custom 717,982,43,43 
+43 TextBox 67 rect 721,984,35,37 
+44 TextBox 68 rect 651,88,619,55 STP Analysis
+45 TextBox 69 rect 774,993,196,26 Primary Target
+46 Freeform 71 custom 1004,982,43,43 
+47 TextBox 72 rect 1008,984,35,37 
+48 TextBox 73 rect 1065,993,231,26 Secondary Target
+49 Freeform 75 custom 613,275,394,67 
+50 TextBox 76 rect 613,294,394,48 Baby Boomer
+51 Freeform 78 custom 1015,275,394,67 
+52 TextBox 79 rect 1015,294,394,48 Millennials
+53 Freeform 81 custom 1416,275,394,67 
+54 TextBox 82 rect 1416,294,394,48 Gen Z
+55 Freeform 84 custom 613,351,290,67 
+56 TextBox 85 rect 613,370,290,48 Students
+57 Freeform 87 custom 915,351,290,67 
+58 TextBox 88 rect 915,370,290,48 Office Workers
+59 Freeform 90 custom 1218,351,290,67 
+60 TextBox 91 rect 1218,370,290,48 Freelancers
+61 Freeform 93 custom 1520,351,290,67 
+62 TextBox 94 rect 1520,370,290,48 Entrepreneurs
+63 Freeform 96 custom 613,428,394,67 
+64 TextBox 97 rect 613,447,394,48 Low (< IDR 5M/month)
+65 Freeform 99 custom 1015,428,394,67 
+66 TextBox 100 rect 1015,443,394,52 Middle (IDR 5-15M/month)
+67 Freeform 102 custom 1416,428,394,67 
+68 TextBox 103 rect 1416,447,394,48 Upper (> IDR 15M/month)
+69 Freeform 105 custom 613,504,290,67 
+70 TextBox 106 rect 613,523,290,48 Sustainability
+71 Freeform 108 custom 915,504,290,67 
+72 TextBox 109 rect 915,523,290,48 Frugality
+73 Freeform 111 custom 1218,504,290,67 
+74 TextBox 112 rect 1218,520,290,52 Convenience
+75 Freeform 114 custom 1520,504,290,67 
+76 TextBox 115 rect 1520,523,290,48 Social Impact
+77 Freeform 117 custom 615,812,290,67 
+78 TextBox 118 rect 615,831,290,48 xxxx
+79 Freeform 120 custom 917,812,290,67 
+80 TextBox 121 rect 917,831,290,48 xxxx
+81 Freeform 123 custom 1220,812,290,67 
+82 TextBox 124 rect 1220,831,290,48 xxxx
+83 Freeform 126 custom 1522,812,290,67 
+84 TextBox 127 rect 1522,831,290,48 xxxx
+85 Freeform 129 custom 616,584,394,67 
+86 TextBox 130 rect 616,603,394,48 Healthy Living
+87 Freeform 132 custom 1018,584,394,67 
+88 TextBox 133 rect 1018,599,394,52 Minimalist
+89 Freeform 135 custom 1419,584,394,67 
+90 TextBox 136 rect 1419,599,394,52 Digital Natives
+91 Freeform 138 custom 616,735,394,67 
+92 TextBox 139 rect 616,754,394,48 xxxx
+93 Freeform 141 custom 1018,735,394,67 
+94 TextBox 142 rect 1018,751,394,52 xxxx
+95 Freeform 144 custom 1420,735,394,67 
+96 TextBox 145 rect 1420,754,394,48 xxxx
+97 Freeform 147 custom 617,888,394,67 
+98 TextBox 148 rect 617,907,394,48 xxxx
+99 Freeform 150 custom 1019,888,394,67 
+100 TextBox 151 rect 1019,903,394,52 xxxx
+101 Freeform 153 custom 1420,888,394,67 
+102 TextBox 154 rect 1420,903,394,52 xxxx
+103 Freeform 156 custom 616,659,290,67 
+104 TextBox 157 rect 616,678,290,48 xxxx
+105 Freeform 159 custom 918,659,290,67 
+106 TextBox 160 rect 918,678,290,48 xxxx
+107 Freeform 162 custom 1221,659,290,67 
+108 TextBox 163 rect 1221,678,290,48 xxxx
+109 Freeform 165 custom 1523,659,290,67 
+110 TextBox 166 rect 1523,678,290,48 xxxx
+SLIDE 97
+0 Freeform 3 custom 108,65,1704,91 
+1 TextBox 4 rect 108,50,1704,106 
+2 Freeform 6 custom 185,210,231,231 
+3 Freeform 8 custom 448,213,1284,239 
+4 TextBox 9 rect 448,213,1284,198 
+5 Freeform 11 custom 185,499,231,231 
+6 Freeform 13 custom 448,494,1284,239 
+7 TextBox 14 rect 448,494,1284,198 
+8 Freeform 16 custom 185,788,231,231 
+9 Freeform 18 custom 448,780,1284,239 
+10 TextBox 19 rect 448,780,1284,198 
+11 TextBox 20 rect 650,85,619,55 Customer Personas
+12 TextBox 21 rect 496,230,1186,167 Hi, I’m Gandeng!/A young professional who values sustainable living and loves to browse eco-fri
+13 TextBox 22 rect 497,532,1186,125 Hello, I'm [name]!/A [demographic/occupation] who [values/psychographic] and [behavior/habit]. 
+14 TextBox 23 rect 497,817,1186,125 Hi, I'm [name]!/A [demographic/occupation] who [values/psychographic] and [behavior/habit]. But
+SLIDE 98
+0 Freeform 3 custom 275,263,1369,639 
+1 TextBox 4 rect 275,248,1369,655 
+2 Freeform 6 custom 455,338,1134,71 
+3 TextBox 7 rect 455,314,1134,95 Gandeng, 26
+4 Freeform 9 custom 459,424,1130,52 
+5 TextBox 10 rect 459,400,1130,76 Eco-conscious young professional, single, living in urban city
+6 Freeform 12 custom 330,298,218,217 
+7 Freeform 13 custom 329,296,221,221 
+8 Freeform 15 custom 570,538,439,75 
+9 TextBox 16 rect 570,514,439,99    IDR 7 million/month
+10 Freeform 18 custom 570,632,439,103 
+11 TextBox 19 rect 570,614,439,121    Browses eco-friendly products     /   online & active on digital platforms
+12 Freeform 21 custom 570,751,439,103 
+13 TextBox 22 rect 570,728,439,127    Limited affordable and practical /   eco-friendly product options
+14 Freeform 24 custom 328,538,227,78 
+15 TextBox 25 rect 328,514,227,102 Income
+16 Freeform 27 custom 328,632,226,103 
+17 TextBox 28 rect 328,608,226,127 Behaviour
+18 Freeform 30 custom 329,751,225,103 
+19 TextBox 31 rect 329,728,225,127 Challenges
+20 Freeform 33 custom 108,65,1704,91 
+21 TextBox 34 rect 108,50,1704,106 
+22 TextBox 35 rect 1029,546,564,39 Gandeng's goals and needs are...
+23 TextBox 36 rect 650,85,619,55 Customer Personas
+24 Freeform 39 custom 1025,617,41,39 
+25 TextBox 40 rect 1037,629,18,19 
+26 Freeform 41 custom 1030,699,32,31 
+27 Freeform 43 custom 1027,778,36,32 
+28 TextBox 44 rect 1030,778,30,26 
+29 TextBox 45 rect 1081,603,512,64 Wants to live sustainably without overspending
+30 TextBox 46 rect 1081,680,512,64 Needs convenient and accessible eco-friendly choices
+31 TextBox 47 rect 1080,760,512,64 Seeks products that fit both lifestyle and budget
+SLIDE 99
+0 Freeform 3 custom 45,542,448,60 
+1 TextBox 4 rect 45,520,448,82 Objectives
+2 Freeform 6 custom 45,617,448,334 
+3 TextBox 7 rect 45,606,448,345 
+4 Freeform 9 custom 56,381,428,131 
+5 TextBox 10 rect 56,363,428,148 
+6 Freeform 12 custom 134,344,271,73 
+7 TextBox 13 rect 134,326,271,91 
+8 TextBox 14 rect 162,367,216,30 Title
+9 Freeform 16 custom 111,67,1704,91 
+10 TextBox 17 rect 111,52,1704,106 
+11 Freeform 19 custom 48,250,463,57 
+12 TextBox 20 rect 119,224,362,83 
+13 Freeform 22 custom 440,250,509,57 
+14 TextBox 23 rect 511,235,408,72 
+15 Freeform 25 custom 879,250,508,53 
+16 TextBox 26 rect 949,224,407,80 
+17 Freeform 28 custom 1320,250,555,53 
+18 TextBox 29 rect 1391,235,453,69 
+19 TextBox 30 rect 382,88,1162,55 Marketing Plan with AIDA Framework
+20 TextBox 31 rect 181,258,167,42 Awareness
+21 TextBox 32 rect 646,252,128,45 Interest
+22 TextBox 33 rect 1101,253,98,42 Desire
+23 TextBox 34 rect 1546,249,107,45 Action
+24 Freeform 36 custom 507,542,448,60 
+25 TextBox 37 rect 507,520,448,82 Objectives
+26 Freeform 39 custom 507,617,448,334 
+27 TextBox 40 rect 507,606,448,345 
+28 Freeform 42 custom 517,381,428,131 
+29 TextBox 43 rect 517,363,428,148 
+30 Freeform 45 custom 595,344,271,73 
+31 TextBox 46 rect 595,326,271,91 
+32 TextBox 47 rect 623,367,216,30 Title
+33 TextBox 48 rect 530,678,400,209 Customers start to pay attention and show curiosity about what you offer.//Goal: Educate and en
+34 Freeform 50 custom 967,539,448,60 
+35 TextBox 51 rect 967,517,448,82 Objectives
+36 Freeform 53 custom 967,614,448,338 
+37 TextBox 54 rect 967,603,448,348 
+38 Freeform 56 custom 977,378,428,131 
+39 TextBox 57 rect 977,360,428,148 
+40 Freeform 59 custom 1055,341,271,73 
+41 TextBox 60 rect 1055,323,271,91 
+42 TextBox 61 rect 1083,364,216,30 Title
+43 TextBox 62 rect 991,668,400,232 Customers develop a preference and emotional connection. They start to want the product.//Goal:
+44 Freeform 64 custom 1427,536,448,60 
+45 TextBox 65 rect 1427,514,448,82 Objectives
+46 Freeform 67 custom 1427,611,448,341 
+47 TextBox 68 rect 1427,600,448,352 
+48 Freeform 70 custom 1437,374,428,131 
+49 TextBox 71 rect 1437,357,428,148 
+50 Freeform 73 custom 1515,338,271,73 
+51 TextBox 74 rect 1515,320,271,91 
+52 TextBox 75 rect 1543,361,216,30 Title
+53 TextBox 76 rect 1447,675,407,209 Customers take the final step: purchase, subscription, or other desired conversion.//Goal: Make
+54 TextBox 77 rect 66,651,407,271 The stage where potential customers first notice the brand or product.//Goal: Make people know 
+SLIDE 100
+0 Freeform 3 custom 108,65,1704,91 
+1 TextBox 4 rect 108,50,1704,106 
+2 Freeform 6 custom 53,790,1810,43 
+3 TextBox 7 rect 53,758,1810,74 
+4 Freeform 9 custom 46,187,463,57 
+5 TextBox 10 rect 117,160,362,83 
+6 Freeform 12 custom 438,187,509,57 
+7 TextBox 13 rect 509,172,408,72 
+8 Freeform 15 custom 876,187,508,53 
+9 TextBox 16 rect 947,160,407,80 
+10 Freeform 18 custom 1317,187,555,53 
+11 TextBox 19 rect 1388,172,453,69 
+12 Freeform 21 custom 56,275,406,92 
+13 TextBox 22 rect 56,259,406,107 Social Media Campaign
+14 Freeform 24 custom 504,275,408,92 
+15 TextBox 25 rect 504,259,408,107 Collaboration with Lifestyle Influencers
+16 Freeform 27 custom 937,275,406,92 
+17 TextBox 28 rect 937,259,406,107 Exclusive Menus & Storytelling
+18 Freeform 30 custom 1371,275,474,92 
+19 TextBox 31 rect 1371,259,474,107 Promotions & Loyalty Program
+20 AutoShape 32 connector 259,478,0,118 
+21 Freeform 33 connector 462,505,155,172 
+22 Freeform 35 custom 56,379,406,162 
+23 TextBox 36 rect 56,360,406,181 
+24 Freeform 38 custom 56,597,406,162 
+25 TextBox 39 rect 56,578,406,181 
+26 AutoShape 40 connector 796,530,199,0 
+27 Freeform 42 custom 505,379,406,380 
+28 TextBox 43 rect 505,360,406,399 
+29 Freeform 44 connector 1319,496,93,182 
+30 Freeform 46 custom 937,379,406,380 
+31 TextBox 47 rect 937,360,406,399 
+32 AutoShape 48 connector 1593,488,0,199 
+33 Freeform 50 custom 1369,379,476,190 
+34 TextBox 51 rect 1369,360,476,209 
+35 Freeform 53 custom 1366,586,479,167 
+36 TextBox 54 rect 1366,567,479,186 
+37 Freeform 56 custom 53,860,406,135 
+38 TextBox 57 rect 53,845,406,150 Boosted brand visibility through consistent social media engagement.
+39 Freeform 59 custom 521,860,406,135 
+40 TextBox 60 rect 521,845,406,150 Increased interest and trial via influencer reviews and seasonal promotions.
+41 Freeform 62 custom 989,859,406,135 
+42 TextBox 63 rect 989,843,406,150 Strengthened desire by linking the product to lifestyle and emotional needs.
+43 Freeform 65 custom 1457,859,406,135 
+44 TextBox 66 rect 1457,843,406,150 Improved sales conversion and retention through time-limited offers and loyalty rewards.
+45 Freeform 69 custom 30,370,51,53 
+46 TextBox 70 rect 35,372,41,46 
+47 TextBox 71 rect 47,373,18,41 1
+48 Freeform 73 custom 34,576,51,53 
+49 TextBox 74 rect 39,578,41,46 
+50 Freeform 77 custom 483,374,51,53 
+51 TextBox 78 rect 487,376,41,46 
+52 TextBox 79 rect 499,377,18,41 3
+53 Freeform 82 custom 918,370,51,53 
+54 TextBox 83 rect 923,372,41,46 
+55 TextBox 84 rect 935,373,18,41 4
+56 Freeform 87 custom 1353,366,51,53 
+57 TextBox 88 rect 1358,368,41,46 
+58 TextBox 89 rect 1370,369,18,41 6
+59 Freeform 92 custom 1809,568,51,53 
+60 TextBox 93 rect 1814,570,41,46 
+61 TextBox 94 rect 1826,571,18,41 7
+62 Freeform 95 custom 321,391,123,138 
+63 Freeform 96 custom 624,409,137,192 
+64 Freeform 97 custom 107,615,71,126 
+65 Freeform 98 custom 1006,411,268,184 
+66 Freeform 99 custom 1430,400,111,140 
+67 Freeform 100 custom 1681,603,117,133 
+68 TextBox 101 rect 379,88,1162,55 Marketing Plan with AIDA Framework
+69 TextBox 102 rect 500,789,897,43 Impact
+70 TextBox 103 rect 179,195,167,42 Awareness
+71 TextBox 104 rect 644,189,128,45 Interest
+72 TextBox 105 rect 1098,190,98,42 Desire
+73 TextBox 106 rect 1544,186,107,45 Action
+74 TextBox 107 rect 51,577,18,42 2
+75 TextBox 108 rect 85,400,248,121 Share short videos showing the coffee making process and cozy vibes of the shop to create a sen
+76 TextBox 109 rect 201,632,222,101 Add CTAs like “Order now on GoFood/GrabFood” or “Tag a friend you’d share coffee with.”
+77 TextBox 110 rect 517,618,380,112 Partner with local food bloggers and micro-influencers to showcase their favorite drinks and pr
+78 TextBox 111 rect 978,618,321,94 Launch limited-edition flavors (e.g., seasonal lattes) available only via online delivery.
+79 TextBox 112 rect 1544,426,255,101 Run flash sales during peak online ordering hours (e.g., “Coffee Happy Hour” from 2–5 PM).
+80 TextBox 113 rect 1383,620,288,101 Create a digital loyalty program where customers collect points for each online order, redeemab
+SLIDE 103
+0 Freeform 3 custom 108,65,1704,91 
+1 TextBox 4 rect 108,50,1704,106 
+2 TextBox 5 rect 515,88,890,55 Key Performance Indicator
+3 Freeform 7 custom 505,245,618,91 
+4 TextBox 8 rect 505,230,618,106 Current Situation
+5 Freeform 10 custom 122,245,327,91 
+6 TextBox 11 rect 122,230,327,106 Strategy Area
+7 Freeform 13 custom 122,372,327,172 
+8 TextBox 14 rect 122,357,327,187 This column defines the focus or strategic priority of the business.
+9 Freeform 16 custom 505,372,618,172 
+10 TextBox 17 rect 505,357,618,187 Describes the present condition or performance related to the strategy area.
+11 Freeform 19 custom 1179,372,618,172 
+12 TextBox 20 rect 1179,357,618,187 Defines the measurable goal you want to achieve in the long term (x year).
+13 Freeform 22 custom 1179,245,618,91 
+14 TextBox 23 rect 1179,230,618,106 KPI (x-year target)
+15 Freeform 26 custom 122,580,327,172 
+16 TextBox 27 rect 122,565,327,187 
+17 Freeform 29 custom 505,580,618,172 
+18 TextBox 30 rect 505,565,618,187 
+19 Freeform 32 custom 1179,580,618,172 
+20 TextBox 33 rect 1179,565,618,187 
+21 Freeform 36 custom 122,788,327,172 
+22 TextBox 37 rect 122,773,327,187 
+23 Freeform 39 custom 505,788,618,172 
+24 TextBox 40 rect 505,773,618,187 
+25 Freeform 42 custom 1179,788,618,172 
+26 TextBox 43 rect 1179,773,618,187 
+SLIDE 89
+0 Freeform 3 custom 107,67,1704,91 
+1 TextBox 4 rect 107,52,1704,106 
+2 TextBox 5 rect 622,73,674,70 Competitor Benchmarking
+3 TextBox 6 rect 264,1005,1391,39 *You can change these aspects with any other factors that are more relevant to your business!
+4 Freeform 8 custom 545,191,310,130 
+5 TextBox 9 rect 545,176,310,145 OUR BRAND
+6 Freeform 11 custom 872,191,308,130 
+7 TextBox 12 rect 872,176,308,145 COMPETITOR 1
+8 Freeform 14 custom 1196,191,303,130 
+9 TextBox 15 rect 1196,176,303,145 COMPETITOR 2
+10 Freeform 17 custom 1515,191,296,130 
+11 TextBox 18 rect 1515,176,296,145 COMPETITOR 3
+12 Freeform 20 custom 107,338,421,117 
+13 TextBox 21 rect 107,315,421,140 Product
+14 Freeform 23 custom 107,469,421,117 
+15 TextBox 24 rect 107,446,421,140 Pricing
+16 Freeform 26 custom 107,603,421,117 
+17 TextBox 27 rect 107,580,421,140 Market Share
+18 Freeform 29 custom 108,738,421,117 
+19 TextBox 30 rect 108,715,421,140 Customer Satisfaction
+20 Freeform 32 custom 107,872,421,117 
+21 TextBox 33 rect 107,849,421,140 Unique Value
+22 Freeform 35 custom 545,338,310,117 
+23 TextBox 36 rect 545,322,310,132 
+24 Freeform 38 custom 545,469,310,117 
+25 TextBox 39 rect 545,454,310,132 
+26 Freeform 41 custom 545,603,310,117 
+27 TextBox 42 rect 545,588,310,132 
+28 Freeform 44 custom 545,735,310,117 
+29 TextBox 45 rect 545,720,310,132 
+30 Freeform 47 custom 545,869,310,117 
+31 TextBox 48 rect 545,854,310,132 
+32 Freeform 50 custom 872,338,308,117 
+33 TextBox 51 rect 872,322,308,132 
+34 Freeform 53 custom 872,469,308,117 
+35 TextBox 54 rect 872,454,308,132 
+36 Freeform 56 custom 872,603,308,117 
+37 TextBox 57 rect 872,588,308,132 
+38 Freeform 59 custom 872,735,308,117 
+39 TextBox 60 rect 872,720,308,132 
+40 Freeform 62 custom 872,869,308,117 
+41 TextBox 63 rect 872,854,308,132 
+42 Freeform 65 custom 1196,340,303,117 
+43 TextBox 66 rect 1196,325,303,132 
+44 Freeform 68 custom 1196,472,303,117 
+45 TextBox 69 rect 1196,457,303,132 
+46 Freeform 71 custom 1196,606,303,117 
+47 TextBox 72 rect 1196,591,303,132 
+48 Freeform 74 custom 1196,738,303,117 
+49 TextBox 75 rect 1196,723,303,132 
+50 Freeform 77 custom 1196,872,303,117 
+51 TextBox 78 rect 1196,856,303,132 
+52 Freeform 80 custom 1516,340,296,117 
+53 TextBox 81 rect 1516,325,296,132 
+54 Freeform 83 custom 1516,472,296,117 
+55 TextBox 84 rect 1516,457,296,132 
+56 Freeform 86 custom 1516,606,296,117 
+57 TextBox 87 rect 1516,591,296,132 
+58 Freeform 89 custom 1516,738,296,117 
+59 TextBox 90 rect 1516,722,296,132 
+60 Freeform 92 custom 1516,871,296,117 
+61 TextBox 93 rect 1516,856,296,132 
+62 TextBox 94 rect 163,214,311,80 Min. 3 competitors /& 5 aspects.
+SLIDE 90
+0 Freeform 3 custom 108,65,1704,91 
+1 TextBox 4 rect 108,50,1704,106 
+2 AutoShape 5 connector 663,295,0,610 
+3 AutoShape 6 connector 318,589,684,0 
+4 TextBox 7 rect 1014,526,181,34 Key Aspect 4
+5 TextBox 8 rect 715,70,488,70 Competitive Matrix
+6 Freeform 10 custom 786,559,128,128 
+7 TextBox 11 rect 798,568,104,107 BRAND A
+8 Freeform 13 custom 583,698,128,128 
+9 TextBox 14 rect 595,707,104,107 BRAND B
+10 Freeform 16 custom 619,352,128,128 
+11 TextBox 17 rect 631,361,104,107 OUR/BRAND
+12 Freeform 19 custom 412,502,128,128 
+13 TextBox 20 rect 424,511,104,107 BRAND C
+14 Freeform 22 custom 1265,352,537,391 
+15 TextBox 23 rect 1265,337,537,406 Choose the key aspects that has the most influence, based on the competitor benchmarking. //The
+16 Freeform 25 custom 1019,566,170,53 
+17 TextBox 26 rect 1019,551,170,68 Emerging
+18 TextBox 27 rect 121,524,181,34 Key Aspect 3
+19 Freeform 29 custom 126,563,170,53 
+20 TextBox 30 rect 126,548,170,68 Legacy
+21 Freeform 32 custom 577,926,170,53 
+22 TextBox 33 rect 577,911,170,68 Indirect
+23 TextBox 34 rect 571,984,181,34 Key Aspect 2
+24 Freeform 36 custom 577,223,170,53 
+25 TextBox 37 rect 577,208,170,68 Direct
+26 TextBox 38 rect 571,180,181,34 Key Aspect 1 
+SLIDE 101
+0 Freeform 3 custom 108,65,1704,91 
+1 TextBox 4 rect 108,50,1704,106 
+2 Freeform 6 custom 1118,235,694,319 
+3 TextBox 7 rect 1118,216,694,338 
+4 Freeform 9 custom 1118,615,694,319 
+5 TextBox 10 rect 1118,596,694,338 
+6 Freeform 12 custom 108,615,694,319 
+7 TextBox 13 rect 108,596,694,338 
+8 Freeform 15 custom 108,235,694,319 
+9 TextBox 16 rect 108,216,694,338 
+10 TextBox 17 rect 1231,712,556,201 What you sell to satisfy customer needs./ /Aspects include:/Features → What makes the product u
+11 Freeform 18 custom 689,344,542,542 
+12 Freeform 19 custom 723,371,118,183 
+13 Freeform 20 custom 697,685,179,179 
+14 Freeform 21 custom 1020,357,202,197 
+15 Freeform 22 custom 1034,684,167,182 
+16 TextBox 23 rect 650,85,619,55 Marketing Mix 4Ps
+17 TextBox 24 rect 1491,267,296,42 PROMOTION
+18 TextBox 25 rect 1491,651,296,42 PRODUCT
+19 TextBox 26 rect 132,651,296,42 PRICE
+20 TextBox 27 rect 132,712,506,201 How much customers pay for the product.//Aspects include:/Pricing strategy → Skimming, penetrat
+21 TextBox 28 rect 132,267,296,42 PLACE
+22 TextBox 29 rect 132,334,465,201 Where and how the product is distributed.//Aspects include:/Channels → Online stores, retail sh
+23 TextBox 30 rect 1296,334,491,201 How you communicate the product to customers./ /Aspects include:/Advertising → Online ads, soci
+24 TextBox 31 rect 862,583,197,70 Marketing Mix
+SLIDE 3
+0 Freeform 3 custom 116,23,571,79 
+1 TextBox 4 rect 116,20,571,83 Risk Prioritization Using Severity-/Occurence Matrix
+2 Freeform 6 custom 745,103,317,45 
+3 TextBox 7 rect 745,88,317,60 Strategy
+4 AutoShape 8 connector 752,148,293,0 
+5 Freeform 10 custom 1075,103,377,45 
+6 TextBox 11 rect 1075,88,377,60 Possible Risk
+7 AutoShape 12 connector 1075,148,377,0 
+8 Freeform 14 custom 1466,103,336,45 
+9 TextBox 15 rect 1466,88,336,60 Mitigation
+10 AutoShape 16 connector 1466,148,336,0 
+11 Freeform 18 custom 732,23,1072,78 
+12 TextBox 19 rect 732,8,1072,93  Risk Management
+13 Freeform 21 custom 182,154,158,158 
+14 TextBox 22 rect 182,147,158,165 
+15 Freeform 24 custom 182,317,158,158 
+16 TextBox 25 rect 182,309,158,165 
+17 Freeform 27 custom 182,480,158,158 
+18 TextBox 28 rect 182,473,158,165 
+19 Freeform 30 custom 345,154,158,158 
+20 TextBox 31 rect 345,146,158,165 
+21 Freeform 33 custom 345,316,158,158 
+22 TextBox 34 rect 345,309,158,165 
+23 Freeform 36 custom 345,480,158,158 
+24 TextBox 37 rect 345,472,158,165 
+25 Freeform 39 custom 508,153,158,158 
+26 TextBox 40 rect 508,146,158,165 
+27 Freeform 42 custom 508,316,158,158 
+28 TextBox 43 rect 508,308,158,165 
+29 Freeform 45 custom 508,479,158,158 
+30 TextBox 46 rect 508,472,158,165 
+31 AutoShape 47 connector 167,653,519,1 
+32 Freeform 50 custom 400,382,48,50 
+33 TextBox 51 rect 405,383,39,44 
+34 TextBox 52 rect 416,389,17,35 2
+35 Freeform 55 custom 390,241,48,50 
+36 TextBox 56 rect 394,243,39,44 
+37 TextBox 57 rect 405,249,17,35 1
+38 Freeform 59 custom 751,165,290,164 
+39 TextBox 60 rect 751,132,290,198 Kerusakan Pemanas / Baterai
+40 Freeform 62 custom 1075,165,377,173 
+41 TextBox 63 rect 1075,132,377,207 Kualitas komponen tidak stabil, overheat, kesalahan desain sirkuit daya/
+42 Freeform 65 custom 747,525,290,163 
+43 TextBox 66 rect 747,492,290,196 Penerimaan Pasar Rendah/
+44 Freeform 68 custom 727,282,54,57 
+45 TextBox 69 rect 732,284,44,49 
+46 Freeform 71 custom 723,626,54,57 
+47 TextBox 72 rect 728,628,44,49 
+48 Freeform 74 custom 1073,347,377,170 
+49 TextBox 75 rect 1073,313,377,204 Kalibrasi kurang tepat, algoritma tidak sesuai dengan jenis makanan/
+50 Freeform 77 custom 1071,527,377,167 
+51 TextBox 78 rect 1071,493,377,200 Edukasi pasar minim, harga produk relatif tinggi dibanding wadah biasa/
+52 TextBox 79 rect 220,659,83,21 Low
+53 TextBox 80 rect 367,659,115,21 Medium
+54 TextBox 81 rect 541,658,92,21 High
+55 TextBox 82 rect 345,679,153,28 (Severity)
+56 TextBox 83 rect 745,287,19,42 1
+57 TextBox 84 rect 741,630,19,42 3
+58 Freeform 86 custom 749,711,295,142 
+59 TextBox 87 rect 749,677,295,175 Gangguan Pasokan Komponen/
+60 Freeform 89 custom 752,870,288,151 
+61 TextBox 90 rect 752,836,288,185 Risiko Keamanan Pengguna/
+62 Freeform 92 custom 752,347,290,173 
+63 TextBox 93 rect 752,313,290,206 Sensor Kalori Tidak Akurat/
+64 Freeform 95 custom 727,452,54,57 
+65 TextBox 96 rect 732,454,44,49 
+66 TextBox 97 rect 745,456,19,42 2
+67 Freeform 99 custom 720,794,54,57 
+68 TextBox 100 rect 725,796,44,49 
+69 TextBox 101 rect 736,799,19,42 4
+70 Freeform 103 custom 722,934,54,57 
+71 TextBox 104 rect 727,936,44,49 
+72 TextBox 105 rect 738,939,19,42 5
+73 Freeform 107 custom 1071,711,377,142 
+74 TextBox 108 rect 1071,681,377,172 Keterbatasan stok chip dan sensor di pasar global, keterlambatan pengiriman/
+75 Freeform 110 custom 1071,870,377,151 
+76 TextBox 111 rect 1071,840,377,181 Kesalahan penggunaan, material wadah tidak food grade, pengawasan produksi lemah/
+77 Freeform 113 custom 1469,165,335,170 
+78 TextBox 114 rect 1469,136,335,200 Gunakan baterai bersertifikat, tambah sensor suhu, uji produk sebelum rilis./
+79 Freeform 116 custom 1467,347,335,170 
+80 TextBox 117 rect 1467,317,335,200 Lakukan uji validasi, update sistem rutin, sediakan input manual pengguna./
+81 Freeform 119 custom 1465,527,335,161 
+82 TextBox 120 rect 1465,497,335,191 Gunakan micro-influencer, adakan demo produk, buat promo bundling./
+83 Freeform 122 custom 1469,711,335,142 
+84 TextBox 123 rect 1469,681,335,172 Gunakan dua pemasok, buat stok cadangan, siapkan alternatif lokal./
+85 Freeform 125 custom 1469,873,330,148 
+86 TextBox 126 rect 1469,843,330,178 Gunakan bahan food grade, tambah sensor pengaman otomatis, sertifikasi SNI./
+87 AutoShape 127 connector 169,133,0,519 
+88 Freeform 130 custom 231,257,48,50 
+89 TextBox 131 rect 235,258,39,44 
+90 TextBox 132 rect 246,264,17,35 3
+91 Freeform 135 custom 563,257,48,50 
+92 TextBox 136 rect 568,258,39,44 
+93 TextBox 137 rect 579,264,17,35 4
+94 Freeform 140 custom 559,408,48,50 
+95 TextBox 141 rect 563,409,39,44 
+96 TextBox 142 rect 575,415,17,35 5
+97 TextBox 143 rect 37,375,177,28 (Probability)
+98 TextBox 144 rect 113,550,87,21 Low
+99 TextBox 145 rect 88,387,137,21 Medium
+100 TextBox 146 rect 115,224,79,21 High
+SLIDE 6
+0 Freeform 3 custom 96,0,547,81 
+1 TextBox 4 rect 96,-11,547,92 Risk Prioritization Using Severity-/Occurence Matrix
+2 Freeform 6 custom 689,73,304,51 
+3 TextBox 7 rect 689,52,304,72 Incident
+4 AutoShape 8 connector 700,116,281,0 
+5 Freeform 10 custom 1013,73,361,51 
+6 TextBox 11 rect 1013,52,361,72 Cause
+7 AutoShape 12 connector 1013,114,361,0 
+8 Freeform 14 custom 1448,73,322,51 
+9 TextBox 15 rect 1448,52,322,72 Mitigation Plan
+10 AutoShape 16 connector 1394,116,430,0 
+11 Freeform 18 custom 687,0,1137,75 
+12 TextBox 19 rect 687,-21,1137,97 Risk Management
+13 Freeform 21 custom 160,281,152,152 
+14 TextBox 22 rect 160,270,152,162 
+15 Freeform 24 custom 160,438,152,152 
+16 TextBox 25 rect 160,427,152,162 
+17 Freeform 27 custom 316,281,152,152 
+18 TextBox 28 rect 316,270,152,162 
+19 Freeform 30 custom 316,438,152,152 
+20 TextBox 31 rect 316,427,152,162 
+21 Freeform 33 custom 473,124,152,152 
+22 TextBox 34 rect 473,114,152,162 
+23 Freeform 36 custom 473,438,152,152 
+24 TextBox 37 rect 473,427,152,162 
+25 AutoShape 38 connector 145,604,498,1 
+26 Freeform 40 custom 473,281,152,152 
+27 TextBox 41 rect 473,270,152,162 
+28 Freeform 44 custom 531,368,46,48 
+29 TextBox 45 rect 535,371,37,40 
+30 TextBox 46 rect 546,370,16,38 2
+31 Freeform 49 custom 440,327,46,47 
+32 TextBox 50 rect 444,330,37,40 
+33 TextBox 51 rect 455,329,16,38 1
+34 Freeform 53 custom 702,141,278,166 
+35 TextBox 54 rect 702,119,278,188 Low Market Acceptance
+36 Freeform 56 custom 1006,141,361,166 
+37 TextBox 57 rect 1006,119,361,188 High competition, low community education, ineffective marketing strategies
+38 Freeform 59 custom 702,487,278,169 
+39 TextBox 60 rect 702,465,278,191 Regulatory and /Legal Barriers
+40 Freeform 62 custom 682,248,52,55 
+41 TextBox 63 rect 687,249,42,48 
+42 Freeform 65 custom 673,606,52,55 
+43 TextBox 66 rect 678,607,42,48 
+44 Freeform 68 custom 1006,312,361,169 
+45 TextBox 69 rect 1006,291,361,191 BSF technology standards not robust, production process still inefficient, uncertain market dem
+46 Freeform 71 custom 1006,487,361,169 
+47 TextBox 72 rect 1006,465,361,191 Complicated permits, unclear or frequently changing waste/food regulations
+48 TextBox 73 rect 219,606,49,27 Low
+49 TextBox 74 rect 359,606,81,27 Medium
+50 TextBox 75 rect 530,606,47,27 High
+51 TextBox 76 rect 321,638,147,35 (Severity)
+52 TextBox 77 rect 699,251,18,35 1
+53 TextBox 78 rect 690,609,18,35 3
+54 Freeform 80 custom 702,312,278,169 
+55 TextBox 81 rect 702,291,278,191 Failure in BSF /Product or Fertilizer Development
+56 Freeform 83 custom 678,431,52,55 
+57 TextBox 84 rect 683,433,42,48 
+58 TextBox 85 rect 695,434,18,35 2
+59 Freeform 87 custom 1394,141,430,162 
+60 TextBox 88 rect 1394,127,430,176 Run digital education and storytelling campaigns, collaborate with local climate ambassadors/mi
+61 AutoShape 89 connector 147,106,0,498 
+62 Freeform 92 custom 346,368,46,48 
+63 TextBox 93 rect 350,371,37,40 
+64 TextBox 94 rect 361,370,16,38 3
+65 TextBox 95 rect 23,333,170,35 (Probability)
+66 TextBox 96 rect 109,493,49,27 Low
+67 TextBox 97 rect 94,337,82,27 Medium
+68 TextBox 98 rect 112,187,43,25 High
+69 Freeform 100 custom 160,124,152,152 
+70 TextBox 101 rect 160,114,152,162 
+71 Freeform 103 custom 316,124,152,152 
+72 TextBox 104 rect 316,114,152,162 
+73 Freeform 106 custom 1394,307,430,172 
+74 TextBox 107 rect 1394,293,430,187 University-based research partnerships, routine small-scale trials, adoption of global best pra
+75 Freeform 109 custom 1394,485,430,169 
+76 TextBox 110 rect 1394,471,430,184 Joint policy advocacy with government, legal expert consultation, forming associations/coalitio
+SLIDE 9
+0 Freeform 3 custom 315,0,370,90 
+1 TextBox 4 rect 315,-15,370,105 2025
+2 Freeform 6 custom 695,0,370,90 
+3 TextBox 7 rect 695,-15,370,105 2026
+4 Freeform 9 custom 1074,0,370,90 
+5 TextBox 10 rect 1074,-15,370,105 2027
+6 Freeform 12 custom 1454,0,370,90 
+7 TextBox 13 rect 1454,-15,370,105 2028
+8 Freeform 15 custom 96,96,213,147 
+9 TextBox 16 rect 96,81,213,162 Goal
+10 Freeform 18 custom 96,252,213,148 
+11 TextBox 19 rect 96,238,213,163 Key Activities
+12 Freeform 21 custom 96,409,213,147 
+13 TextBox 22 rect 96,394,213,162 Funding
+14 Freeform 24 custom 96,566,213,147 
+15 TextBox 25 rect 96,551,213,162 Stakeholder
+16 Freeform 27 custom 315,96,370,147 
+17 TextBox 28 rect 315,81,370,162 
+18 TextBox 29 rect 331,108,337,119 Research, design, and validation /Prototype development & pilot testing
+19 Freeform 31 custom 695,96,370,147 
+20 TextBox 32 rect 695,81,370,162 
+21 Freeform 34 custom 1075,96,370,147 
+22 TextBox 35 rect 1075,81,370,162 
+23 Freeform 37 custom 1455,96,369,147 
+24 TextBox 38 rect 1455,81,369,162 
+25 Freeform 40 custom 315,252,370,147 
+26 TextBox 41 rect 315,238,370,162 
+27 Freeform 43 custom 695,252,370,147 
+28 TextBox 44 rect 695,238,370,162 
+29 Freeform 46 custom 1075,252,370,147 
+30 TextBox 47 rect 1075,238,370,162 
+31 Freeform 49 custom 1455,252,369,147 
+32 TextBox 50 rect 1455,238,369,162 
+33 Freeform 52 custom 315,409,370,147 
+34 TextBox 53 rect 315,394,370,162 
+35 Freeform 55 custom 695,409,370,147 
+36 TextBox 56 rect 695,394,370,162 
+37 Freeform 58 custom 1075,409,370,147 
+38 TextBox 59 rect 1075,394,370,162 
+39 Freeform 61 custom 1455,409,369,147 
+40 TextBox 62 rect 1455,394,369,162 
+41 Freeform 64 custom 315,566,370,147 
+42 TextBox 65 rect 315,551,370,162 
+43 Freeform 67 custom 695,566,370,147 
+44 TextBox 68 rect 695,551,370,162 
+45 Freeform 70 custom 1075,566,370,147 
+46 TextBox 71 rect 1075,551,370,162 
+47 Freeform 73 custom 1455,566,369,147 
+48 TextBox 74 rect 1455,551,369,162 
+49 TextBox 75 rect 711,108,337,119 Initial implementation & controlled rollout /Capacity building & awareness
+50 TextBox 76 rect 1091,122,337,89 National scale-up /Digital integration./Supply Chain Expansion
+51 TextBox 77 rect 1470,94,337,119 /Optimization and global expansion./Sustainability review
+52 TextBox 78 rect 333,247,337,148 Community needs assessment /Prototype testing for BSF and waste system/Regulatory review.
+53 TextBox 79 rect 711,251,337,148 Beta launch/Training for locals and partners;/Awareness workshops/Monitoring and evaluation.
+54 TextBox 80 rect 1075,251,397,148 Regional rollout/Digital integration/New partnerships/Gamified, data-driven improvements.
+55 TextBox 81 rect 1463,251,353,148 System improvement/International partnerships/ SEA expansion/Sustainability review and reportin
+56 TextBox 82 rect 331,421,337,119 Angel investors /Green innovation funds /Government start-up grants
+57 TextBox 83 rect 711,421,337,119 Government grants /CSR from green-tech companies /Private foundations
+58 TextBox 84 rect 1091,437,337,85 Public-private partnerships / Government subsidies / Telecom sponsorships
+59 TextBox 85 rect 1472,425,337,115 Subscriptions, /Climate funds, /Government and international grants.
+60 TextBox 86 rect 331,576,337,119 University team/Educators/Pilot community /NGOs and developers
+61 TextBox 87 rect 712,551,337,148 /Local governments/NGOs, /Waste workers, /Youth groups.
+62 TextBox 88 rect 1091,590,337,89 Regional Education Offices / Public & private schools /Technology providers
+63 TextBox 89 rect 1470,578,337,119 Global NGOs/UN agencies /Regional associations/ Research networks.
+SLIDE 20
+0 Freeform 3 custom 96,0,1728,240 
+1 TextBox 4 rect 96,-27,1728,267 
+2 Freeform 6 custom 150,55,172,130 
+3 TextBox 7 rect 341,51,489,75 +IDR 661 Million
+4 TextBox 8 rect 338,125,426,58 NPV
+5 Freeform 10 custom 884,28,166,184 
+6 TextBox 11 rect 1066,59,222,75 37.9%
+7 TextBox 12 rect 1064,132,225,60 ROI
+8 Freeform 14 custom 1344,39,162,162 
+9 TextBox 15 rect 1522,57,241,75 2 Years
+10 TextBox 16 rect 1521,130,243,60 Payback
+SLIDE 87
+0 Freeform 3 custom 741,286,505,195 
+1 TextBox 4 rect 741,272,505,209 
+2 Freeform 6 custom 741,230,505,47 
+3 TextBox 7 rect 741,215,505,62 
+4 Freeform 9 custom 741,547,505,195 
+5 TextBox 10 rect 741,533,505,209 
+6 Freeform 12 custom 741,490,505,47 
+7 TextBox 13 rect 741,476,505,62 
+8 Freeform 15 custom 1257,286,505,195 
+9 TextBox 16 rect 1257,272,505,209 
+10 Freeform 18 custom 1257,230,505,47 
+11 TextBox 19 rect 1257,215,505,62 
+12 Freeform 21 custom 226,547,505,195 
+13 TextBox 22 rect 226,533,505,209 
+14 Freeform 24 custom 226,490,505,47 
+15 TextBox 25 rect 226,476,505,62 
+16 Freeform 27 custom 226,808,505,195 
+17 TextBox 28 rect 226,794,505,209 
+18 Freeform 30 custom 226,751,505,47 
+19 TextBox 31 rect 226,737,505,62 
+20 Freeform 33 custom 741,173,1021,47 
+21 TextBox 34 rect 741,159,1021,62 
+22 Freeform 36 custom -69,718,512,58 
+23 TextBox 37 rect -69,703,512,72 
+24 Freeform 39 custom 1257,547,505,195 
+25 TextBox 40 rect 1257,533,505,209 
+26 Freeform 42 custom 1257,490,505,47 
+27 TextBox 43 rect 1257,476,505,62 
+28 Freeform 45 custom 741,808,505,195 
+29 TextBox 46 rect 741,794,505,209 
+30 Freeform 48 custom 741,751,505,47 
+31 TextBox 49 rect 741,737,505,62 
+32 Freeform 51 custom 1257,808,505,195 
+33 TextBox 52 rect 1257,794,505,209 
+34 Freeform 54 custom 1257,751,505,47 
+35 TextBox 55 rect 1257,737,505,62 
+36 Freeform 57 custom 158,173,573,308 
+37 TextBox 58 rect 158,159,573,322 
+38 Freeform 59 custom 199,270,125,125 
+39 TextBox 60 rect 847,238,275,32 Strenghts
+40 TextBox 61 rect 1368,240,275,32 Weaknesses
+41 TextBox 62 rect 335,500,275,32 Opportunities
+42 TextBox 63 rect 327,761,275,32 Threats
+43 TextBox 64 rect 847,499,275,32 SO
+44 TextBox 65 rect 1364,501,275,32 WO
+45 TextBox 66 rect 1373,761,275,32 WT
+46 TextBox 67 rect 847,761,275,32 ST
+47 TextBox 68 rect 51,726,275,32 External
+48 TextBox 69 rect 1060,183,275,32 Internal
+49 TextBox 70 rect 344,287,411,102 SWOT-TOWS Analysis
+50 Freeform 72 custom 108,63,1704,91 
+51 TextBox 73 rect 108,48,1704,106 
+52 TextBox 74 rect 680,68,557,70 SWOT-TOWS Analysis
+size undefined undefined

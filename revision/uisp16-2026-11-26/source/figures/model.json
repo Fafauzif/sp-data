@@ -1,0 +1,33 @@
+{
+  "marketBands": [
+    "TAM\nRp32,03 miliar",
+    "SAM\nRp3,36 miliar",
+    "SOM\nRp231,45 juta"
+  ],
+  "marketValues": [
+    "Indonesia",
+    "Jabodetabek yang bisa dilayani",
+    "Klaster aktif pada 2029"
+  ],
+  "marketMethod": [
+    "Asumsi 2,6% dari belanja mebel umum. GMV bekas Rp302,51 miliar.",
+    "Proksi wilayah layanan sebesar 10,5% dari peluang nasional.",
+    "4.746 pesanan selesai di 8 klaster. Volume dibatasi kapasitas."
+  ],
+  "marketFoot": "Skenario dasar, dalam rupiah per tahun. Luas lingkaran bersifat skematis. Acuan BPS 2026 untuk belanja mebel umum Rp11,63 triliun/tahun.",
+  "finance": [
+    [
+      "−Rp2,51 miliar",
+      "NPV proyek pada diskonto 13,97%"
+    ],
+    [
+      "Tidak terdefinisi",
+      "IRR dengan seluruh arus kas negatif"
+    ],
+    [
+      "Belum tercapai",
+      "Balik modal hingga akhir 2036"
+    ]
+  ],
+  "financeFoot": "Proyeksi indikatif berdasarkan arus kas proyek setelah pajak dan sebelum pendanaan."
+}

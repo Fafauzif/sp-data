@@ -1,0 +1,33 @@
+{
+  "responses": 60,
+  "students": 56,
+  "searched_online": 32,
+  "considered_specific_listing": 17,
+  "students_considering_specific_listing": 17,
+  "listing_obstacles_multiple_choice": {
+    "Kondisi barang": 14,
+    "Kecocokan dengan ruang": 10,
+    "Keandalan penjual": 4,
+    "Biaya atau cara pengambilan atau pengiriman": 10,
+    "Ukuran barang": 8
+  },
+  "listing_actions_multiple_choice": {
+    "Meminta informasi tambahan kepada penjual": 12,
+    "Melihat barang secara langsung": 8,
+    "Menghubungi penjual untuk membeli": 6,
+    "Mencari pilihan lain": 6,
+    "Menyimpan iklan untuk dipertimbangkan": 6,
+    "Tidak melakukan tindakan lanjutan": 2
+  },
+  "confidence_change_fixed_order": {
+    "increased": 34,
+    "decreased": 10,
+    "unchanged": 16
+  },
+  "stated_purchase_intent_change_fixed_order": {
+    "increased": 27,
+    "excluded": 8,
+    "unchanged": 18,
+    "decreased": 7
+  }
+}
