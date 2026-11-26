@@ -1,6 +1,6 @@
 # Audit handoff: LihatDulu UISP16 revision vs its review
 
-Started 26 November 2026, stopped early at the user's request. Nothing in the proposal, the scripts, or the existing docs was modified. This file is the only addition.
+Audit run 26 November 2026. Nothing in the proposal, the scripts, or the existing docs was modified. Two files were added: this one and `docs/PLAN-NEXT-RUN-2026-11-26.md`.
 
 Read `docs/WORD-REVIEW-COMMENTS.md`, `docs/CURRENT-CONTEXT.md`, and `docs/CHAT-FEEDBACK.md` first. This file records what the audit already established so a new session does not redo it.
 
@@ -12,7 +12,7 @@ Each line below was checked directly against the rendered pages or the DOCX XML,
 2. **Page 2 (Statement of Authorship) is a near-blank page.** Three short lines at the top, roughly 85 percent of the page empty. This is the exact shape comment 7 was written about.
 3. **Page budget is inverted.** Body runs pages 3-18, appendix pages 19-29. Financial strategy (BAB V) gets two pages, 17-18, of a 31-page document. Marketing gets six. The appendix is about a third of the document.
 4. **"Sora" survives.** Body block 218 in Lampiran C reads "Sora berasal dari rilis 29961f0 dan menggunakan kabinet contoh", and the product mockup placed on page 5 prints "Lemari Sora" twice inside the image. Comment 2 is not met, in text and in artwork.
-5. **Build artefact in body prose.** Sixteen dangling cross-references are pasted at the ends of sentences, for example "Bukti tersebut menunjukkan satu alur teknis yang dapat diperiksa sendiri. Tabel C.1". Full list: Tabel A.1, B.1, B.2, C.1 (twice), C.2, D.1, D.2, D.3, E.1, F.1, F.2, F.3, F.4, G.1, G.2, G.3. They read as broken sentences, not citations.
+5. **Build artefact in body prose.** 24 body paragraphs end on a bare hyperlink label with no full stop before it: "…pada pesanan yang sama. Model bisnis", "…bukti minimum. Kendali mutu listing". Three have two labels jammed together ("Alur pemeriksaan bukti Model kapasitas", "Penelusuran lemari bekas Penelusuran lemari tiga pintu", "Catatan pemrosesan Metadata hasil demo"). Block indices: 45, 48, 57, 62, 66, 73, 75, 78, 81, 83, 89, 97, 99, 107, 112, 117, 119, 122, 124, 127, 133, 147, 149, 155. This is the original's "Tabel C.1" artefact with new wording: the build appends a reference token to the paragraph instead of writing a sentence. A correction to an earlier draft of this note: the 16 literal "Tabel A.1 … G.3" strings are the appendix table captions, and only one appears in running prose ("…dua pengujian pada Tabel C.1 menggunakan GLB dari…"). The defect is the links, not the table references.
 6. **Figure 14 (TAM/SAM/SOM) contains no rupiah figure.** The graphic is three concentric green circles with three label cards reading "Potensi pendapatan marketplace nasional", "Potensi pendapatan di area layanan", "Pendapatan marketplace tahun ketiga", each multiplied by a per-order value. The actual revenue arithmetic is in the paragraph below the figure. Comment 25 ("needs to be revenue based") is half addressed: the labels are revenue-flavoured, the visual is not.
 7. **All 28 figures are raster and all sit at the same width.** Every image is placed 5.7-6.14 in wide, 1.1-4.8 in tall (10-45 percent of the text block), at 195-333 dpi. The figure typeface is sans while body text is Times New Roman 12 pt on 1.5 spacing. Nothing in the DOCX is a PowerPoint object or a native shape.
 8. **Headings are English, body is Indonesian.** "BAB I. Problem Background & Validation", "BAB II. Business Model", "BAB III. Operation Strategy", "BAB V. Financial Strategy" against Indonesian paragraph text and Indonesian figure captions.
@@ -26,23 +26,26 @@ The two exemplars are visual systems, and the reviewer is asking for that system
 
 EverWear is the realistic target for a Word-based submission. Thrifty is the upper bound on effort.
 
-## Not analysed yet
+## Audit status
 
-- [ ] Full per-page reference spec for all 29 Thrifty pages and all 37 EverWear pages. Only spot checks were done: Thrifty 1, 8, 18; EverWear 6, 9.
-- [ ] One row per reviewer comment with a verdict (met / partly / not met) and the evidence. No verdict table exists yet.
-- [ ] Deck inventory outside the nine noted slides. What competitor, SWOT, KPI, roadmap or financial templates the 111 slides also hold, and how each ports to A4 portrait at readable body size.
-- [ ] TikZ source review. The nine `.tex` files in `revision/assets/figures/` were not read, so figure provenance is only inferred from filenames and rendered output.
-- [ ] Delete / replace / keep decision for each of the 28 figures.
-- [ ] Indonesian prose audit: word counts per subsection in BAB I, the list of sentences in BAB I that leak the solution, in-text citation count and quality per chapter, and counts of the robotic patterns (repeated sentence openings, missing conjunctions, hedge stacks).
-- [ ] Layout sweep of all 31 pages: empty-space percentage per page, every forced page break, orphaned captions, footer and header contents, TOC page numbers against printed folios.
-- [ ] Appendix A-G audit against comment 26: words versus figures per appendix. Lampiran D and E appear to have no figure at all; unconfirmed.
-- [ ] Comment 15: whether the 3D vendor is named anywhere. A quick grep for "Sora" was run, a grep for KIRI, Luma, Polycam or similar was not.
-- [ ] Comment 22: Gambar 11 is captioned "Peta risiko operasi berdasarkan kemungkinan dan dampak" and is probably a heatmap. Its actual visual quality was not inspected.
-- [ ] Comment 1: whether the executive summary sells problem, solution, operations, marketing and finance in that order, or still reads as a product description.
-- [ ] Survey figures against `survey-analysis/analysis.md`: 50 responses, 46 students, 15 with a specific listing, 13 / 9 / 8 for the three difficulties.
-- [ ] Financial plausibility of BAB V and Lampiran E. Two pages of numbers for a competition business plan was not checked for arithmetic or for the revenue-based market link the reviewer demanded.
-- [ ] Figure typography and resolution normalisation, and whether the 40 media files contain duplicates or unused images.
-- [ ] Whether `SHA256SUMS.txt` still matches the files (it was never verified this session).
+All seven audit agents finished and wrote to `/tmp/audit/findings/`. The synthesis is in `docs/PLAN-NEXT-RUN-2026-11-26.md`.
+
+| Report | Headline |
+|---|---|
+| `ref-everwear.md` | 14 of 21 body pages are pure text; frameworks quarantined to the appendix; every flow figure is a lane spine with a real screenshot, never a box diagram |
+| `ref-thrifty.md` | Zero text layer, all pixels. One exhibit owns a page, values live inside the rings, marketing rides on real captures, prose is question-led with Anda/kita |
+| `deck-template.md` | The deck was not used, not once: no shared colour, no shared shape, 0 of 40 images from its 173. Also the A4 arithmetic that explains why nobody ported it |
+| `comments-compliance.md` | 10 MET, 13 PARTLY, 4 NOT MET: comments 2, 17, 25, 26 |
+| `figures-provenance.md` | 18 of 28 figures are invented geometry, 3 are real evidence plates, 8 delete, 6 replace with deck pages, 3 replace with captures |
+| `prose-voice.md` | 127 words per page of body prose, 1 sentence-initial conjunction in 2,964 words, 24 paragraphs ending on a link, BAB I cut hollow |
+| `layout-pagination.md` | Blank space is mostly fixed (mean 10.9 percent); what remains is six unabsorbed figure holes, five split tables, a fake TOC, and figure type from 2 to 7.5 pt |
+
+Still open, in the plan as the four blocking decisions:
+
+- [ ] Which reference is the target, EverWear's format or Thrifty's. Only the user can decide
+- [ ] The chapter-break rule, since both references break on chapter and comment 7 forbids it
+- [ ] The finance workbook, and whether BAB V keeps its brackets until it arrives
+- [ ] Whether 1.5 line spacing is a competition requirement. If not, 1.15 reclaims about six pages
 
 ## Artifacts that survive on disk
 
@@ -71,22 +74,10 @@ pdftotext -layout "<repo>/revision/finalqa/LihatDulu_UISP16_Proposal_Revised.pdf
 
 Paths inside Python on this machine must be `C:/...`, not `/c/...`. `read_file` on a PNG path returns the image, which is how the pages and figures were inspected.
 
-## Seven audit agents were mid-run
+## Where the agent reports live
 
-They were spawned at roughly 14:55 and were still running when this session stopped. Any of them that finished wrote its report to `/tmp/audit/findings/<name>.md`. Check that folder before starting any of the work above; the report may already exist.
-
-| Agent | Task | Report path |
-|---|---|---|
-| `ref-everwear` | Page-by-page spec of the EverWear reference | `findings/ref-everwear.md` |
-| `ref-thrifty` | Page-by-page spec of the Thrifty reference | `findings/ref-thrifty.md` |
-| `deck-template` | Deck inventory and the A4 porting spec per template | `findings/deck-template.md` |
-| `comments-compliance` | Verdict table for all 27 comments | `findings/comments-compliance.md` |
-| `figures-provenance` | Figure provenance, delete/replace/keep list | `findings/figures-provenance.md` |
-| `prose-voice` | Indonesian prose and BAB I structure audit | `findings/prose-voice.md` |
-| `layout-pagination` | 31-page layout, blank space, page breaks, TOC | `findings/layout-pagination.md` |
-
-The `figures-provenance` agent had already written crops and contact sheets into `findings/_crops/` and `findings/sheets/` before stopping.
+All seven finished. Their reports, and the extraction artifacts they worked from, are under `C:/Users/fauzi/AppData/Local/Temp/audit/findings/`. Copy that folder somewhere durable before clearing temp, because the page renders and dumps took the bulk of the work.
 
 ## Suggested opening message for the next session
 
-> Continue the LihatDulu UISP16 audit. Read docs/AUDIT-HANDOFF-2026-11-26.md, then check /tmp/audit/findings/ for any agent reports that finished after the handoff was written. Finish the items in the "Not analysed yet" checklist, then write the next-run improvement plan. Read only: do not edit the proposal, the scripts, or the existing docs. The plan should focus on why the revision reads as a Word report with generated figures when the reviewer wanted the EverWear and Thrifty treatment, why the framework deck's templates went unused, and what each chapter needs to change.
+> Continue LihatDulu UISP16 from the audit. Read docs/PLAN-NEXT-RUN-2026-11-26.md and docs/AUDIT-HANDOFF-2026-11-26.md. The four blocking decisions at the top of the plan need my answers before you touch the document. Once I answer, work through the tasks in order and stop after Task 1 so I can check the ported deck pages before you rebuild the figure set. Do not run revision/build.py.
